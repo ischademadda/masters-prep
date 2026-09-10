@@ -17,7 +17,7 @@ This problem led me to initiate and lead two platform projects that define my ac
 
 ### 2. Academic Background
 
-I am a 4th-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU), Institute of Information Technology. My curriculum has focused on System Design, Distributed Systems, Databases, and Business Analysis. My GPA is [4.X/5.0] and my English level is C1 (IELTS target 7.5).
+I am a 4th-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU), Institute of Information Technology. My curriculum has focused on System Design, Distributed Systems, Databases, and Business Analysis. My GPA is 4.0/5.0 (top of my cohort in project-based courses; projected 4.3 by graduation) and my English level is C1 (IELTS target 7.5).
 
 My academic strength is not purely theoretical but project-driven system analysis. I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after 4 months for shipping production features. My diploma project, **Archon**, is a team R&D effort where I act as Lead System Architect and Product Visionary, responsible for product scope, modular decomposition (17 modules), and 7 Architecture Decision Records (ADRs) that unblocked development before coding began.
 

@@ -103,7 +103,7 @@ System Designer & Go Developer | Stack: Go, CRDT (Fugue, LWW, Vector Clocks), Re
 
 EDUCATION
 Tomsk Polytechnic University (TPU), Institute of IT, Software Engineering
-BSc, 2023 — 2027 (expected) | GPA: [укажи свой, напр. 4.6/5.0]
+BSc, 2023 — 2027 (expected) | GPA: 4.0/5.0 (current, target 4.3 by graduation)
 Relevant: System Design, Distributed Systems, Databases, Business Analysis
 Awards: Intensive in System Analysis (T-Bank, 2026)
 
