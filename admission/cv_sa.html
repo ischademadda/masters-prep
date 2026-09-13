@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Денис Штэпа — Системный аналитик | CV</title>
+<style>
+  :root {
+    --ink: #1c2430;
+    --ink-soft: #4a5568;
+    --accent: #17456e;
+    --line: #d8dee6;
+    --bg-soft: #f4f6f8;
+    --tag-bg: #eef2f6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PT Sans", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.5;
+    font-size: 10.5pt;
+    background: #e9ecef;
+  }
+
+  .page {
+    max-width: 190mm;
+    margin: 24px auto;
+    background: #fff;
+    padding: 14mm 15mm;
+    box-shadow: 0 2px 18px rgba(0,0,0,.14);
+  }
+
+  /* ---------- Header ---------- */
+  header { border-bottom: 2.5px solid var(--accent); padding-bottom: 12px; margin-bottom: 14px; }
+  h1 { font-size: 22pt; font-weight: 700; letter-spacing: .2px; }
+  .headline { font-size: 11.5pt; color: var(--accent); font-weight: 600; margin-top: 3px; }
+  .contacts {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    font-size: 9.5pt;
+    color: var(--ink-soft);
+  }
+  .contacts span b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Sections ---------- */
+  section { margin-top: 15px; }
+  h2 {
+    font-size: 10.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+    margin-bottom: 9px;
+    font-weight: 700;
+  }
+  h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1px; }
+  h4 { font-size: 10.5pt; font-weight: 700; margin-bottom: 2px; }
+  .meta { color: var(--ink-soft); font-size: 9.5pt; }
+  .meta i { font-style: normal; color: var(--ink); font-weight: 600; }
+  ul { margin: 6px 0 4px 0; padding-left: 16px; }
+  li { margin-bottom: 3.5px; }
+  li::marker { color: var(--accent); }
+  .role-note { margin: 4px 0 6px; color: var(--ink-soft); }
+  .role-note b { color: var(--ink); }
+
+  .job { margin-bottom: 13px; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .job-head .period { white-space: nowrap; color: var(--ink-soft); font-size: 9.5pt; }
+
+  .project { margin: 8px 0 2px; padding: 7px 10px; background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; }
+  .project h4 .dates { font-weight: 400; color: var(--ink-soft); font-size: 9.5pt; }
+  .project p { margin: 2px 0; color: var(--ink); font-size: 10pt; }
+  .project ul { margin-top: 5px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(23,69,110,.35); }
+
+  /* ---------- Skills ---------- */
+  .skills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .skills span {
+    background: var(--tag-bg);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-size: 9pt;
+    color: var(--ink);
+  }
+
+  /* ---------- Two-column footer blocks ---------- */
+  .cols { display: flex; gap: 26px; }
+  .cols > div { flex: 1; }
+  .about p { margin-bottom: 6px; }
+
+  /* ---------- Print ---------- */
+  @page { size: A4; margin: 0; }
+  @media print {
+    body { background: #fff; font-size: 10pt; }
+    .page { margin: 0; max-width: none; box-shadow: none; padding: 12mm 13mm; }
+    section { break-inside: avoid; }
+    .job { break-inside: avoid; }
+    .project { break-inside: avoid; }
+    a { border-bottom: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Денис Штэпа</h1>
+  <div class="headline">Системный аналитик · Junior+ (грейд подтверждён внутренней оценкой Т-Банка)</div>
+  <div class="contacts">
+    <span><b>+7 (996) 350-77-95</b> — предпочтительно</span>
+    <span>ischademadda@gmail.com</span>
+    <span>Telegram: @ischademadda</span>
+    <span>github.com/ischademadda · github.com/teamv39</span>
+    <span><b>Томск</b> — удалённо / гибрид / командировки</span>
+  </div>
+</header>
+
+<section>
+  <div class="job-head">
+    <div><i>Желаемая должность:</i> системный аналитик (смежные: бизнес-аналитик, аналитик AI/LLM-продуктов)</div>
+  </div>
+  <div class="meta" style="margin-top:2px;">
+    Зарплата от 140 000 ₽ на руки (обсуждаема) · Полная занятость · Гибрид / удалённо
+  </div>
+  <p style="margin-top:8px;">
+    Системный аналитик с подтверждённым грейдом Junior+ и суммарным опытом 2,5 года: два года веду R&amp;D-лабораторию как основатель и системный аналитик, параллельно — корпоративные роли в Т-Банке и Газпром нефти. Специализация — System Design и полный цикл запуска продукта: архитектура (C4), API-контракты (REST/OpenAPI), модели данных, межсистемные интеграции, документация (ТЗ, RFC, ADR, Use Cases, Sequence Diagram). Отдельный фокус — AI-системы: LLM-пайплайны, RAG, Knowledge Graph, MCP-интеграции для AI-агентов. Ключевые системы внедрены у корпоративных заказчиков (Газпром Восток Нефть, Т-Банк), код проектов публичен на GitHub.
+  </p>
+</section>
+
+<section>
+  <h2>Ключевые навыки</h2>
+  <div class="skills">
+    <span>Системный анализ</span><span>Сбор и анализ требований</span><span>Разработка ТЗ</span>
+    <span>Use Cases</span><span>AS IS / TO BE</span><span>NFR</span>
+    <span>System Design (C4, LikeC4, PlantUML)</span><span>Sequence Diagram</span>
+    <span>API (REST, OpenAPI, JSON API)</span><span>Межсистемные интеграции</span>
+    <span>Микросервисы</span><span>Событийная архитектура</span><span>Temporal</span>
+    <span>SQL / PostgreSQL</span><span>Apache AGE</span><span>Qdrant</span><span>Redis</span>
+    <span>RAG</span><span>LLM-пайплайны</span><span>AI-агенты</span><span>Knowledge Graph</span>
+    <span>Confluence</span><span>Jira</span><span>Git</span><span>Agile</span>
+    <span>Декомпозиция задач</span><span>Работа со стейкхолдерами</span><span>Постановка задач разработчикам</span>
+  </div>
+</section>
+
+<section>
+  <h2>Опыт работы — 2 года 7 месяцев (суммарно; роли частично параллельные)</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <h3>R&amp;D-лаборатория Team v3.9</h3>
+      <div class="period">Сентябрь 2024 — настоящее время (2 года)</div>
+    </div>
+    <div class="meta"><i>Роль:</i> основатель, тимлид (4–7 инженеров), системный аналитик · Томск · github.com/teamv39</div>
+    <p class="role-note">Студенческая R&amp;D-команда, которую я собрал и возглавил: проектируем и внедряем системы для корпоративных заказчиков. Моя зона — системный анализ и System Design всех продуктов команды, от бизнес-требований до архитектуры и приёмки. Корпоративные роли (Т-Банк, Газпром нефть) вёл параллельно — совмещение согласовано с работодателями.</p>
+
+    <div class="project">
+      <h4>Archon — платформа AI-native Source of Truth для корпоративной архитектуры <span class="dates">(август 2026 — н.в., выпускной проект)</span></h4>
+      <p>Ведущий системный архитектор: платформа непрерывно синхронизирует архитектурную документацию с кодом и отдаёт проверенный контекст инженерам и AI-агентам разработки.</p>
+      <ul>
+        <li>Спроектировал «фабрику знаний» из 17 логических модулей (портал, PR-бот, MCP-сервер, Knowledge Graph, детектор дрейфа), автор 7 ADR — все развилки закрыты до старта кодинга.</li>
+        <li>Гибридный пайплайн Code-to-Architecture: детерминированный AST-анализ + двухфазный LLM-контур с Proof-of-Truth (каждая связь в графе подтверждена ссылками на файлы/строки) — исключены недоказанные связи, −90% LLM-токенов.</li>
+        <li>Мультитенантный Knowledge Graph на PostgreSQL 16 + Apache AGE: верифицировал 50 изолированных графов-тенантов, обход на глубину 4 за &lt;15 мс при NFR &lt;100 мс.</li>
+        <li>Физическая топология: 3 полиглотных сервиса (Kotlin/Python/React) под оркестрацией Temporal Workflows; privacy-by-default (код клиентов только в RAM).</li>
+        <li>Управление: трекер на 37 задач, процесс Docs-as-Code (AGENTS.md), команда из 4 инженеров.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4>OmniSearch Engine — мультимодальная RAG-система для видеоархивов <span class="dates">(январь — июнь 2026)</span> · <a href="https://github.com/teamv39/OmniSearch-Engine">github.com/teamv39/OmniSearch-Engine</a></h4>
+      <p>Product Owner и системный аналитик: on-premise движок семантического видео-поиска, внедрён у корпоративного заказчика.</p>
+      <ul>
+        <li>Спроектировал микросервисную архитектуру: Control Plane (Kotlin Ktor) + Compute Plane (Go: FFmpeg/GoCV, Python: Whisper/CLIP), OpenAPI 3.0-контракты, асинхронный пайплайн с конечным автоматом статусов обработки видео.</li>
+        <li>Хранение: PostgreSQL, Qdrant, S3/MinIO; presigned URL для безопасного стриминга, CI/CD на GitHub Actions.</li>
+        <li>Результат: внедрён в задачу автоматизации отслеживания соблюдения ТБ на объектах Газпром Восток Нефть; в раскатке на высоконагруженные бизнес-решения.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4>WikiLive — система совместной wiki-разработки для MTS Tech <span class="dates">(в разработке)</span></h4>
+      <p>Системный аналитик, спроектировал всю систему:</p>
+      <ul>
+        <li>Frontend (React + Tiptap) под Design Kit; Backend Gateway (Java Spring): бизнес-логика, авторизация, PostgreSQL, безопасное проксирование к MWS API.</li>
+        <li>Sync Engine (Go): WebSockets, роутинг бинарных дельт, горизонтальное масштабирование через Redis Pub/Sub.</li>
+        <li>AI Node (Python FastAPI): шлюз к MWS GPT, RAG-пайплайн, Qdrant.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <h3>Т-Банк</h3>
+      <div class="period">Апрель 2026 — август 2026 (5 месяцев)</div>
+    </div>
+    <div class="meta"><i>Должность:</i> системный аналитик (по итогам оценки — грейд Junior+) · Москва, удалённо</div>
+    <p class="role-note">Системный аналитик полного цикла с фокусом на System Design: сквозные решения на стыке нескольких команд, от сбора требований у бизнеса до постановки на разработку и сопровождения релиза в проде. Документация уровня RFC, ADR, ТЗ, Use Cases, Sequence Diagram; проработка рисков и корнер-кейсов на этапе проектирования; координация кросс-функциональных команд (Backend, Frontend, ML, QA, Design).</p>
+    <ul>
+      <li><b>archmap</b> — автор и владелец продукта: из запроса лида направления «построить архитектурную карту» самостоятельно инициировал и вывел продукт — автогенерация архитектурной документации (LikeC4) прямо из кода. Спроектировал двухфазный LLM-парсер (File Selector → Extractor) + детерминированный генератор (Python, CI/CD), оркестрация в n8n, запуск через бота в один клик. Отрисовка C4-диаграммы: с 1–3 дней до 10–15 минут, онбординг в архитектуру: с недель до часов. Одобрен руководством, масштабируется на 4 продукта (~25 репозиториев).</li>
+      <li><b>Кобрендинг в Т-ОРД</b> — спроектировал сквозную фичу от БД до фронта с интеграцией трёх внешних систем с разными контрактами и обратной совместимостью API. Все корнер-кейсы закрыты в ТЗ — разработка без единого блокера, фича в проде, обеспечивает соблюдение закона о маркировке рекламы.</li>
+      <li><b>BotControl</b> — полный цикл аналитики и сравнительный анализ вариантов, обосновал быстрый MVP вместо дорогой интеграции. Решение в проде, конверсия отклика в бота — 50%.</li>
+      <li><b>Процессы</b> — переработал ранбуки дежурств (анализ ~145 обращений, время ответа −40%), создал шаблон сервисной документации, переиспользуемый двумя командами (онбординг с 3 дней до 1).</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <h3>Газпром нефть, ПАО</h3>
+      <div class="period">Июнь 2026 — июль 2026 (2 месяца, параллельно с R&amp;D)</div>
+    </div>
+    <div class="meta"><i>Должность:</i> бизнес-аналитик · удалённо, проектная работа</div>
+    <ul>
+      <li>Работал над задачей «Автоматизация отслеживания соблюдения ТБ на объектах»: стейкхолдеры Газпром Восток Нефть заинтересовались OmniSearch Engine и предложили расширить функционал под свои задачи.</li>
+      <li>Собрал бизнес-требования с ключевых стейкхолдеров, выделил границы продукта, составил план доработки и roadmap для каждого участника команды.</li>
+      <li>Задокументировал и согласовал требования с заказчиком, разработал функциональные требования с учётом пользовательских и бизнес-требований, проанализировал оптимальность существующих бизнес-процессов.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <h3>НИ ТПУ — платформа «Витрина проектов» ИШИТР+</h3>
+      <div class="period">Сентябрь 2025 — июнь 2026 (10 месяцев)</div>
+    </div>
+    <div class="meta"><i>Должность:</i> куратор студенческих проектов · Томск</div>
+    <ul>
+      <li>Кураторство студенческих проектных команд: помогал выстраивать процесс разработки и ведения проектов, подготавливал индивидуальные учебные планы, консультировал по учебным и внеучебным вопросам.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Личные проекты</h2>
+  <div class="job">
+    <div class="job-head">
+      <h3>CRDT-Engine — распределённый движок совместного редактирования</h3>
+      <div class="period"><a href="https://github.com/ischademadda/CRDT-Engine">github.com/ischademadda/CRDT-Engine</a> · Go, Redis Pub/Sub, WebSockets</div>
+    </div>
+    <ul>
+      <li>Спроектировал и реализовал real-time движок совместного редактирования с Strong Eventual Consistency без центральных блокировок: Fugue (Sequence CRDT), LWW-Register, векторные часы.</li>
+      <li>Горизонтальное масштабирование (Hub/Broker-Worker): синк нод через Redis Pub/Sub, пул воркеров с шардированием по document_id.</li>
+      <li>Clean-архитектура, полный комплект C4-диаграмм и ADR, e2e-тест на двух нодах с проверкой идентичности состояния при параллельном вводе.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cols">
+  <div>
+    <h2>Образование</h2>
+    <p><b>2023 — 2027</b> — НИ Томский политехнический университет, ИШИТР, «Программная инженерия», бакалавриат (4 курс).</p>
+    <p style="margin-top:4px;"><b>Курсы:</b> интенсив по системному анализу (Т-Банк, 2026); бизнес-аналитика (ТПУ, 2025).</p>
+  </div>
+  <div>
+    <h2>Языки</h2>
+    <p>Русский — родной.</p>
+    <p>Английский — C1 (свободно работаю с документацией и технической перепиской).</p>
+  </div>
+</section>
+
+<section class="about">
+  <h2>Обо мне</h2>
+  <p>Системный аналитик, который не ждёт детальной постановки: сам разбираюсь в контексте и довожу решение до прода. Дважды вёл продукт от идеи до внедрения у корпоративного заказчика: OmniSearch (Газпром Восток Нефть) и archmap (Т-Банк). Умею говорить и с бизнесом, и с разработкой: собираю требования у стейкхолдеров, декомпозирую задачи и веду кросс-функциональные команды (Backend, Frontend, ML, QA).</p>
+  <p>Ищу команду со сложными задачами System Design: распределённые системы, межсистемные интеграции, AI-архитектура.</p>
+</section>
+
+</div>
+</body>
+</html>

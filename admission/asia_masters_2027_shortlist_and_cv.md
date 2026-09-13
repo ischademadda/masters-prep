@@ -14,7 +14,7 @@
 
 Приоритет: **Китай CSC (№1) + Тайвань MOE (№2, страховка) + Корея GKS (№3, джекпот)**. Япония MEXT — только если успеешь найти профессора в октябре 2026.
 
-Красный диплом не нужен. Смотрят на GPA (>4.3 желательно) + портфолио (Archon/OmniSearch) + мотивацию (Study Plan) + рекомендации.
+Красный диплом не нужен. Смотрят на GPA (твой 3.93 → цель 4.0+ к диплому — ни у одного канала нет жёсткого cutoff; ниже — где GPA вообще всплывает) + портфолио (Archon/OmniSearch) + мотивацию (Study Plan) + рекомендации.
 
 ---
 
@@ -24,26 +24,32 @@
 |---|---|---|---|---|---|---|---|
 | **1** | **Китай — CSC Type B** | **Tsinghua University (Shenzhen) — Master in Data Science & Information Technology / Software Engineering** | 100% учебы + общага + 3000¥/мес + страховка | **Окт 2026 — 15 Марта 2027.** Портал открывается в январе, вузы закрываются раньше CSC. Начинать в октябре. | **Высокие.** Кейс Archon (AI-native Source of Truth) и OmniSearch (мультимодальный RAG) — то что Tsinghua обожает. Портфолио > GPA. | IELTS 6.5+ / TOEFL 85+. HSK не обязателен, но HSK3-4 даст +30% | **Приоритет №1.** Лучшее покрытие и котировка. Подача через портал вуза + campuschina.org. Нужен Study Plan 800 слов про Archon. |
 | **2** | **Китай — CSC Type B** | **Peking University — MSc Software Engineering (AI & Service Engineering) / MSc Computer Applied Technology** | То же | **Ноябрь 2026 — Февраль 2027** | Высокие | IELTS 6.5+ | Второй слот в Китае для страховки. PKU любит системных архитекторов. |
-| **3** | **Тайвань — MOE + Huayu** | **National Taiwan University (NTU) — Global MBA (Technology & Innovation) / MS in Service Science** | Обучение до 40k NTD/семестр + 20-25k NTD/мес (~650-800$) + перелет (ICDF) | **01 Февраля — 31 Марта 2027** | **Очень высокие.** Самый лояльный к РФ. GMBA берет инженеров без бизнес-опыта. archmap (продукт с 0 до 4 продуктов) — идеальное эссе для MBA. | IELTS 6.0+. Китайский не нужен, дают год Huayu бесплатно | **Приоритет №2, план Б.** Тайвань = TSMC/ASUS. Диплом NTU топ-50 мира. |
-| **4** | **Тайвань — MOE** | **National Tsing Hua University (NTHU) — International Master Program in Information Systems and Applications (IMS)** | То же | **Январь — Март 2027** | Очень высокие | IELTS 6.0+ | Более технарский чем NTU, прямо про Platform Management. Конкурс ниже. |
-| **5** | **Корея — GKS-G University Track** | **KAIST — MS in School of Computing / Graduate School of AI** | 100% + 900$/мес + перелет + 1 год корейского + страховка. Самая щедрая. | **Февраль — Март 2027.** Два трека: через посольство РФ и через вуз. Подавать через вуз — шанс выше. | **Средние.** Высокий конкурс, требуют GPA >4.5 и эссе про лидерство. Твое Team Lead Archon (4 инженера) + 37 задач в GitHub Projects — то что нужно. | IELTS 6.5+ / TOPIK не обязателен | Идеально под TPM / Platform PM. KAIST = MIT Кореи. |
-| **6** | **Корея — GKS-G** | **Seoul National University (SNU) — MS in Technology Management, Economics and Policy (TEMEP)** | То же | **Февраль — Март 2027** | Средние | IELTS 6.5+ | Не кодинг, а управление тех-продуктами. 100% твой трек. |
-| **7** | **Япония — MEXT University Recommendation** | **Tohoku University / Kyushu University — MSc Software Engineering / Data Science** | 100% + 144,000¥/мес (~950$) + билеты | **Октябрь — Ноябрь 2026 (уже сейчас!)** на осень 2027. Через посольство опоздал (был в мае 2026), остался только трек через вуз. | Низкие-Средние. Нужен контакт с профессором заранее. | IELTS 6.5+ / JLPT N3+ плюс | Только если успеешь найти профессора в октябре. Иначе 2028. Для тебя слабее Китая/Тайваня. |
+| **3** | **Китай — CSC Type B (третий слот)** | **Zhejiang University — Software Engineering (English-taught master, College of CS)** — единственный из топов с отдельной English-taught SE-программой. Альтернатива: **SJTU — Computer Science and Technology** (School of CS, Minhang; SE идёт внутри Computer Software and Theory) | 100% по CSC Type B (tuition + общага + 3000¥/мес + страховка). Self-funded: ZJU 36,800¥/год, SJTU 28,900¥/год | **ZJU: CSC Type B ~31 декабря 2026** (цикл 2026: 31.12; Fall 2027 — проверить гайд в октябре). **SJTU: 1-й раунд CSC ~15 декабря 2026, финал ~15 февраля 2027** (подача с ~15 октября). | **Средне-высокие.** ZJU IELTS 6.5, SJTU IELTS 6.0 (5.5 subtests). ⚠️ **SJTU для School of CS требует acceptance letter от супервизора ДО подачи** — профессора SJTU добавить в волну писем сентября-октября. ZJU: Form for Provisional Acceptance даёт priority (не строго обязательно). | ZJU: IELTS 6.5 / TOEFL 90 / Duolingo 120; SJTU: IELTS 6.0 / TOEFL 90 | **Третий слот Китая.** ZJU SE — самое релевантное название программы; SJTU — если найдётся супервизор. Дедлайны совпадают с Tsinghua/PKU (декабрь) — IELTS нужен к началу ноября. Agency numbers: SJTU 10248, NJU 10284. |
+| **4** | **Тайвань — MOE + ICDF** | ❌ **NTU Global MBA — ВЫПАЛ (11.09.2026): официально требует 2 года work experience** (Proof of Work Experience — обязательный компонент для international students, gmba.ntu.edu.tw). У Дениса 5 мес стажировки — не проходит. ❌ **NTHU Institute of Service Science тоже отпал (11.09.2026): магистратура ISS для иностранцев закрыта** (только PhD — гайдлайны NTHU Fall 2026/Spring 2027), в партнёрские программы ICDF не входит. **Замена: NTHU IMBA** (см. строку 5) — work experience там optional | — | — | — | — | — |
+| **5** | **Тайвань — ICDF / MOE** | **NTHU — теперь двойной слот (обновлено 11.09.2026):** (а) **IMBA** (College of Technology Management) — прямая замена NTU GMBA: 100% English, 2 года, **work experience = optional** («preferable», НЕ обязательное требование — ключевое отличие от NTU GMBA); (б) **IMPISA** (International Master in Information Systems and Applications) — ближе к SE-профилю. ❌ **Institute of Service Science отпал**: магистратура ISS для иностранцев закрыта (только PhD, гайдлайны NTHU Fall 2026/Spring 2027), в ICDF не входит | ICDF (обе программы — партнёрские): 100% tuition + 18-20k NTD/мес + перелёт + страховка. MOE: 40k NTD/сем + 20k NTD/мес. **РФ в списке стран ICDF подтверждена** (регион West Asia, гайдбук 2026). Fee NTHU 2,000 TWD за 1-2 программы | **NTHU admission: ~15.12.2026 — 25.02.2027** (паттерн 3 лет подряд, объявление ~ноябрь 2026). **ICDF: 01.12.2026 — 15.03.2027** (подтверждено официально). MOE: 01.02 — 31.03.2027 | **Очень высокие.** Самый лояльный к РФ. IMBA: без экзаменов и интервью, оценка по документам. archmap + OmniSearch — сильное портфолио. NTHU сам советует подавать regular IMBA + IMBA-ICDF одновременно (2 программы, один fee) | Обе: IELTS 6.0 / TOEFL 79 / TOEIC 800-825 | **Приоритет №2, план Б.** Стратегия: 2 заявки (IMBA regular + IMBA-ICDF) + IMPISA как SE-вариант, всё в одном окне декабря-февраля. Письмо Jerry Chou (директор IMS/IMPISA) остаётся в плане. ⚠️ Taiwan-Europe Scholarship (CEE) — РФ НЕ входит, подавать только через основную ICDF. |
+| **6** | **Корея — GKS-G University Track + KAIST Regular (параллельно)** | **KAIST — MS in School of Computing / Graduate School of AI** | **GKS:** 100% + 1 380 000 KRW/мес + перелет + 1 год корейского (1.2M KRW/мес) + страховка + settlement 200k. **KAIST Scholarship (KGPS):** 100% tuition + **1 000 000 KRW/мес** × 4 семестра + NHIS (авто-рассмотрение при выборе в Financial Resources, получают ~94% международных) | **GKS University Track: ~13.02 — 18.03.2027. KAIST Fall Regular: ~03 — 17.03.2027** (по циклу 2026; Fall 2027 TBA). ⚠️ Подача в МАРТЕ, не осенью. Опционально Fall Early Track ~02-16.12.2026 (решение ~6.03). **Regular + GKS University — можно одновременно** (официальный FAQ KAIST); Embassy + University — нельзя вместе | **Средние.** Порог GPA — top 20% класса (фактический GPA 3.93/5.0 = 78.6%, чуть ниже 80%-хеджа → нужен class rank из ТПУ + оценки 7-го семестра поднимут кумулятив до ~4.0 до мартовской подачи). Эссе про лидерство: Team Lead Archon (4 инженера) + 37 задач в GitHub Projects. Гайд прямо рекомендует найтиadvisor в SoC ДО подачи (RA-финансирование от его грантов) | IELTS 6.5+ / TOPIK не обязателен (но обязателен TOPIK 3+ после языкового года GKS) | Идеально под TPM / Platform PM. KAIST = MIT Кореи. Стратегия: подать оба трека; при двойном оффере брать GKS (денег больше), при провале GKS — KGPS всё равно покрывает всё. |
+| **7** | **Корея — GKS-G** | **Seoul National University (SNU) — MS in Technology Management, Economics and Policy (TEMEP)** | То же | **Февраль — Март 2027** | Средние | IELTS 6.5+ | Не кодинг, а управление тех-продуктами. 100% твой трек. |
+| **8** | **Китай — запасные (если 3 слота мало)** | **NJU Master of Computer Technology (MCT)** — 2 года, School of CS №1 по SE в CSRankings. **HUST Computer Science and Technology** — safety net | CSC: tuition + общага + 3000¥/мес | **NJU: подача ~01.11.2026 — 20.01.2027 (pre-admission), портал CSC до ~17.03.2027** (agency 10284). **HUST: окно ~15.10.2026 — 01.03.2027** (agency 10487) | Высокие (NJU — до 20 янв, HUST — до 1 марта, дедлайны мягче топов) | Оба IELTS 6.0 (NJU: TOEFL 85 / Duolingo 100; HUST: TOEFL 80 / GRE 310) | Запасные с самыми мягкими дедлайнами — подать, если Tsinghua/PKU/ZJU-SJTU не дали pre-admission к январю. Fudan (Phase One 13.10-12.12, agency 10246, IELTS 6.5+) и USTC (16.10-31.01, agency 10358) — вторая линия запасных. |
+| **9** | **Япония — MEXT University Recommendation** | **Tohoku University / Kyushu University — MSc Software Engineering / Data Science** | 100% + 144,000¥/мес (~950$) + билеты | **Октябрь — Ноябрь 2026 (уже сейчас!)** на осень 2027. Через посольство опоздал (был в мае 2026), остался только трек через вуз. | Низкие-Средние. Нужен контакт с профессором заранее. | IELTS 6.5+ / JLPT N3+ плюс | Только если успеешь найти профессора в октябре. Иначе 2028. Для тебя слабее Китая/Тайваня. |
 
-### Вывод по шансам и условиям
+### Вывод по шансам и условиям (обновлено 11.09.2026)
 
-- **Легче всего поступить:** Тайвань MOE (берут много, лояльны к РФ)
-- **Лучшие условия жизни:** Китай CSC (общага + стипендия хватает) и Корея GKS (900$ + жилье)
-- **Лучший диплом для Platform PM:** KAIST/SNU и NTU
+- **Легче всего поступить:** Тайвань ICDF через NTHU IMBA/IMPISA (берут много, лояльны к РФ; IMBA без экзаменов и интервью, work experience optional). Из Китая мягче всего — HUST/NJU (дедлайны до января-марта, IELTS 6.0)
+- **Лучшие условия жизни:** Китай CSC (общага + стипендия хватает) и Корея GKS (1 380 000 KRW + жилье)
+- **Лучший диплом для Platform PM:** KAIST/SNU и NTHU (после отпадения NTU GMBA)
+- **Китай теперь 3 слота + запасные:** Tsinghua SIGS (№1) + PKU (№2) + ZJU SE / SJTU CST (№3, дедлайны те же — конец декабря) + запасные NJU MCT / HUST на случай отказа топов
 - **Язык:** До марта 2027 учи китайский до HSK3 (реально с C1 за 6 мес по 1 часу/день). Для англ. программ не обязателен, но в заявке на CSC фраза "начал HSK3, готов учить" дает +30% к шансу. Японский учить смысла нет если не идешь в MEXT.
 
-### Таймлайн подачи
+### Таймлайн подачи (⚠️ обновлено 11.09.2026 — дедлайны Китая раньше, чем казалось)
 
-- **Сентябрь-Октябрь 2026:** Сдать IELTS (цель 7.0+), начать HSK3, выбрать 2 профессора в Tsinghua/PKU для контакта, готовить Study Plan про Archon.
-- **Октябрь-Ноябрь 2026:** Подача в Японию (если решишь) + открытие порталов Китая.
-- **Ноябрь 2026 — Март 2027:** Подача CSC (Type B через вуз) + campuschina.org.
-- **Февраль — Март 2027:** Подача Тайвань MOE и Корея GKS.
-- **Июнь-Июль 2027:** Результаты, виза, блок-счет для Кореи/Тайваня.
+- **Сентябрь 2026 (сейчас):** письма профессорам волна 1-2 (Zheng Haitao, Xuanzhe Liu + Shin Yoo, Jerry Chou, Hwang Junseok) — **не ждать октября**, Tsinghua-портал открывается с середины сентября. ⚠️ Добавить 1-2 профессора SJTU School of CS (нужен acceptance letter ДО подачи — официальное требование) и ZJU (Form for Provisional Acceptance даёт priority). Готовить Study Plan про Archon. Бронь IELTS на начало ноября.
+- **Октябрь 2026:** Портал Tsinghua открыт — заполнять. PKU окно ~с 20 октября. SJTU подача открывается ~15 октября. Начать HSK3-интенсив.
+- **Начало ноября 2026:** **Сдать IELTS в Астане** (прямой рейс из Томска, Academic на компьютере; результат за 3-5 дней — нужен до mid-Dec).
+- **До mid-December 2026:** **Подать Tsinghua CSC First-Round + PKU + SJTU (1-й раунд CSC ~15.12)** — это главный дедлайн Китая.
+- **До ~31 декабря 2026:** **Подать ZJU CSC Type B** (дедлайн цикла 2026: 31.12).
+- **Декабрь 2026 — Март 2027:** **NTHU admission ~15.12.2026 — 25.02.2027** (IMBA regular + IMBA-ICDF + IMPISA одной заявкой), ICDF-стипендия до 15.03.2027 (окно с 01.12). Ожидание ответов профессоров. NJU pre-admission до ~20 января (если решаешь добрать запасной слот), портал CSC для NJU до ~17 марта, HUST до ~1 марта.
+- **Февраль — Март 2027:** Дедлайн NTHU ~25.02. Подача Тайвань MOE (01.02-31.03). Корея: GKS Embassy (~12-25.02) ИЛИ University Track (~13.02-18.03) — выбрать один; **KAIST Fall Regular ~03-17.03 — параллельно с GKS University Track** (официально разрешено). Опционально KAIST Fall Early ~02-16.12.2026.
+- **Июнь-Июль 2027:** Результаты, виза (блок-счёт не нужен при полной стипендии).
 
 ### Полезные ссылки
 
@@ -103,7 +109,7 @@ System Designer & Go Developer | Stack: Go, CRDT (Fugue, LWW, Vector Clocks), Re
 
 EDUCATION
 Tomsk Polytechnic University (TPU), Institute of IT, Software Engineering
-BSc, 2023 — 2027 (expected) | GPA: 4.0/5.0 (current, target 4.3 by graduation)
+BSc, 2023 — 2027 (expected) | GPA: 3.93/5.0 (current, target 4.0+ by graduation)
 Relevant: System Design, Distributed Systems, Databases, Business Analysis
 Awards: Intensive in System Analysis (T-Bank, 2026)
 
@@ -147,9 +153,10 @@ Role: Facilitated decision, authored ADR
 
 ## Часть 5. Следующие шаги
 
-1. Сдать IELTS (цель 7.0+, с твоим C1 — 1-1.5 мес подготовки)
+1. Сдать IELTS (цель 7.0+, с твоим C1 — 1-1.5 мес подготовки, экзамен начало ноября в Астане — прямой рейс из Томска)
 2. Начать китайский HSK3 (1 час/день, 6 мес реально)
-3. Выбрать 2 профессора в Tsinghua/PKU и написать им в октябре (тема: Archon + RAG)
+3. Письма профессорам — СЕНТЯБРЬ, не октябрь (Tsinghua CSC mid-Dec, SJTU требует acceptance letter до подачи): Tsinghua/PKU + SJTU/ZJU волной 1-2
 4. Написать Study Plan 800 слов: "From Archon to AI-native Platform Management"
+5. Запросить в ТПУ справку о class rank (нужна GKS до февраля, делается 5 раб. дней — не тянуть)
 
 Хочешь — следующим шагом набросаю Study Plan под CSC и план китайского с 0 до HSK4.
