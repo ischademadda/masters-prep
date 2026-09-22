@@ -5,7 +5,12 @@
 > **Дата старта диагностики:** 16 сентября 2026  
 > **Сдача:** Первая половина ноября 2026 (Астана, IELTS on Computer)  
 > **Базовый уровень:** Английский C1 (свободный разговорный, беглое аудирование)  
-> **Ключевой фокус:** формат, критерии оценки (Band Descriptors), отработка технических ловушек.
+> **Ключевой фокус:** формат, критерии оценки (Band Descriptors), отработка технических ловушек.  
+> **Материалы в репозитории:**  
+> - 📄 [Шпаргалка перед сном (Bedtime Cheat Sheet)](file:///Users/shteppinson/mylife/maga/ielts/bedtime_review_cheat_sheet.md)  
+> - 📅 [План подготовки на 3 дня (3-Day Sprint)](file:///Users/shteppinson/mylife/maga/ielts/three_day_plan.md)  
+> - 📘 [Гайд по Writing Task 2](file:///Users/shteppinson/mylife/maga/ielts/writing_task2_master_guide.md)  
+> - ✈️ [Материалы для чтения офлайн](file:///Users/shteppinson/mylife/maga/ielts/flight_pack/)
 
 ---
 
@@ -14,7 +19,7 @@
 | Модуль | Текущий срез | Целевой балл | Выявленные слепые зоны | Статус |
 |---|---|---|---|---|
 | **Reading** | **6/7 (85%)** — Drill 1 | 8.0+ (35+/40) | **Comparison Trap в TFNG** (додумывание свойств объекта B при контрасте с объектом A) | 🟡 В процессе |
-| **Writing** | **Band 6.0** — Task 1 Drill | 7.0+ | **Разговорный регистр** (*As we can see*), **домысливание причин** (*ecological trend* вместо чистых данных), грамматика времен (*Past Simple* для графиков) | 🟡 В процессе |
+| **Writing** | **Band 6.5** — Full Task 2 Essay | 7.5+ | Согласование (*skills affects*, *employers prefers*), предлог *affect on* ❌, сленг (*way more*, *is a must*), спеллинг (*medcine*, *therefor*) | 🟡 В процессе |
 | **Listening** | *Не начато* | 8.0+ (35+/40) | Spelled names, Plural forms, Distractors в секции 3-4 | ⚪ В очереди |
 | **Speaking** | **Band 7.0** — Part 2/3 Drills | 7.5+ | Ложные друзья (*untrust* -> *distrust/skepticism*), *there is* vs *it is*, убрать *As we can see* | 🟢 Откалибровано |
 
@@ -33,6 +38,17 @@
   - *Правило:* Никаких сокращений в Academic Writing (только *did not*, *cannot*). Заменяем на академические клише: *«Overall, it is evident that...»*.
 - **Ловушка №4 (Rise vs Raise vs Plummet):** *«Percentage raised up»* — ошибка.
   - *Правило:* *Raise* — переходный (raise prices); *Rise* — непереходный (the share rose).
+- **Ловушка №12 (Russian Calques in Task 2):**
+  - *High education* ❌ → **Higher education / tertiary education** ✅.
+  - *Another people* ❌ → **Others / other people** ✅.
+  - *Affect on* ❌ → **Directly affect [noun]** (глагол *affect* переходный, без предлога!).
+  - *Stands over* ❌ → **Takes precedence over / is prioritized over** ✅.
+- **Ловушка №13 (Subject-Verb Agreement in Essay):** Слет окончаний во множественном числе (*skills affects* ❌, *employers prefers* ❌).
+  - *Правило:* Всегда перепроверять согласование подлежащего и сказуемого во время 5-минутного Proofreading.
+- **Ловушка №14 (Informal Slang in Essay):**
+  - *Way more* ❌ → **Substantially more / considerably more** ✅.
+  - *Is a must* ❌ → **Is indispensable / is essential** ✅.
+  - *Candidates which* ❌ → **Candidates who** (для людей только *who*).
 - **Lego-конструктор для Overview (Band 8.0):**
   - *Предложение 1 (Контраст):* `While [X] witnessed a dramatic surge to become the most prevalent [item], [Y] experienced a steep decline over the period.`
   - *Предложение 2 (Умеренный рост + аутсайдер):* `Meanwhile, the proportion of [Z] continued to climb steadily, whereas [W] remained by far the least widespread category.`
