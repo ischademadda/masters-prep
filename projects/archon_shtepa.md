@@ -2,7 +2,7 @@
 
 > **Проект:** Archon (Managed SaaS & Context-as-a-Service)  
 > **Роль:** Lead System Architect & Product Visionary (Денис `@ischademadda`)  
-> **Команда:** Синдикат Team v.3.9 (4 инженера: Lead Architect, AI Scientist, Core Backend, DevOps/SRE + пул)  
+> **Команда:** Синдикат team v39 (4 инженера: Lead Architect, AI Scientist, Core Backend, DevOps/SRE + пул)  
 > **Период:** 2026  
 > **Статус:** Фаза 0 (Архитектурное проектирование, PoC и валидация) ➔ Фаза 1 (Core MVP)
 

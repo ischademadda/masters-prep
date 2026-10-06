@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Денис Штэпа — Product Manager | CV</title>
+<style>
+  :root {
+    --ink: #1e293b;
+    --ink-soft: #475569;
+    --accent: #0284c7;
+    --accent-dark: #0369a1;
+    --line: #cbd5e1;
+    --bg-soft: #f8fafc;
+    --tag-bg: #f1f5f9;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.4;
+    font-size: 9.5pt;
+    background: #e2e8f0;
+  }
+
+  /* Two visual A4 pages for screen preview */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 20px auto;
+    background: #fff;
+    padding: 12mm 15mm;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+  }
+
+  /* ---------- Header ---------- */
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 8px; margin-bottom: 10px; }
+  h1 { font-size: 19pt; font-weight: 800; color: #0f172a; letter-spacing: -0.3px; line-height: 1.1; }
+  .headline { font-size: 11pt; color: var(--accent-dark); font-weight: 700; margin-top: 2px; }
+  .contacts {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 14px;
+    font-size: 8.5pt;
+    color: var(--ink-soft);
+  }
+  .contacts span b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Sections ---------- */
+  section { margin-top: 10px; }
+  h2 {
+    font-size: 9.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-dark);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+    font-weight: 800;
+  }
+  h3 { font-size: 10pt; font-weight: 700; color: #0f172a; }
+  h4 { font-size: 9.5pt; font-weight: 700; color: #1e293b; margin-bottom: 2px; }
+  .meta { color: var(--ink-soft); font-size: 8.5pt; }
+  .meta i { font-style: normal; color: var(--ink); font-weight: 600; }
+  
+  ul { margin: 3px 0 2px 0; padding-left: 15px; }
+  li { margin-bottom: 2px; }
+  li::marker { color: var(--accent); }
+  .role-note { margin: 2px 0 4px; color: var(--ink-soft); font-size: 9pt; }
+
+  .job { margin-bottom: 9px; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .job-head .period { white-space: nowrap; color: var(--ink-soft); font-size: 8.5pt; font-weight: 600; }
+
+  .project { margin: 5px 0 3px; padding: 5px 9px; background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; }
+  .project h4 .dates { font-weight: 400; color: var(--ink-soft); font-size: 8.5pt; }
+  .project p { margin: 2px 0; color: var(--ink); font-size: 9pt; }
+  a { color: var(--accent-dark); text-decoration: none; }
+
+  /* ---------- Skills Grid ---------- */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 135px 1fr;
+    gap: 4px 10px;
+    font-size: 8.5pt;
+    margin-top: 3px;
+  }
+  .skills-grid .cat { font-weight: 700; color: var(--ink); }
+  .skills-grid .items { color: var(--ink-soft); }
+
+  /* ---------- Two-column layout ---------- */
+  .cols { display: flex; gap: 18px; margin-top: 6px; }
+  .cols > div { flex: 1; }
+
+  /* ---------- Print Rules ---------- */
+  @page {
+    size: A4 portrait;
+    margin: 10mm 12mm;
+  }
+
+  @media print {
+    body {
+      background: #fff !important;
+      font-size: 9.5pt;
+    }
+    .page {
+      width: 100% !important;
+      min-height: auto !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+      page-break-after: always;
+      break-after: page;
+    }
+    .page:last-child {
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== СТРАНИЦА 1 ==================== -->
+<div class="page">
+  <header>
+    <h1>Денис Штэпа</h1>
+    <div class="headline">Product Manager (0-to-1 · Platform & B2B · Creator & Partner Tech)</div>
+    <div class="contacts">
+      <span><b>Телефон:</b> +7 (996) 350-77-95</span>
+      <span><b>Email:</b> ischademadda@gmail.com</span>
+      <span><b>Telegram:</b> @ischademadda</span>
+      <span><b>GitHub:</b> github.com/ischademadda · github.com/teamv39</span>
+      <span><b>Томск</b> (готов к релокации / командировкам)</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Опыт и профиль</h2>
+    <p>
+      <b>Product Manager с 3 годами опыта</b> запуска технологических продуктов с нуля (0-to-1), проведения CustDev и управления кросс-функциональными командами. Специализируюсь на быстром поиске Product-Market Fit через дешевую проверку гипотез (Lean-прототипы, no-code, боты, ручные пилоты до написания продакшн-кода). Сопровождал B2B-продукты полного цикла для международного рынка (Сингапур / SEA), руководил запуском корпоративного инструмента в Т-Банке и руковожу 2 продуктовыми командами в R&D-лаборатории Team v3.9. Свободный английский (C1).
+    </p>
+  </section>
+
+  <section>
+    <h2>Ключевые компетенции</h2>
+    <div class="skills-grid">
+      <div class="cat">Product Discovery:</div>
+      <div class="items">Глубинные интервью (CustDev / JTBD на русском и английском), поиск скрытых болей, анализ рынка и конкурентов, сегментация ЦА.</div>
+      <div class="cat">0-to-1 & Lean:</div>
+      <div class="items">Быстрая проверка гипотез малыми ресурсами: no-code/low-code MVP, боты (TG/WhatsApp), скрипты, ручные пилоты, dogfooding.</div>
+      <div class="cat">Delivery & Leadership:</div>
+      <div class="items">Управление 2 продуктовыми командами (7 инженеров), бэклог, спринты (Scrum/Kanban), RICE-приоритизация, роадмапы.</div>
+      <div class="cat">Метрики и экономика:</div>
+      <div class="items">Time-to-Value, Activation Funnel, Retention, юнит-экономика, оптимизация издержек (-90% стоимости обработки).</div>
+      <div class="cat">Технический стек:</div>
+      <div class="items">Архитектура REST API, Webhooks, мессенджеры, SQL/PostgreSQL, Redis, AI/LLM-пайплайны, понимание кода (ТПУ ПО).</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Опыт работы — 3 года (Часть 1)</h2>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Team v3.9 — R&amp;D-лаборатория продуктов и технологий</h3>
+        <div class="period">Сентябрь 2024 — настоящее время (2 года)</div>
+      </div>
+      <div class="meta"><i>Роль:</i> Co-Founder & Head of Product (руководство 2 продуктовыми командами, 7 инженеров) · github.com/teamv39</div>
+      <p class="role-note">Отвечаю за продуктовую стратегию, поиск сегментов ЦА, CustDev с техническими лидерами и запуск продуктов экосистемы Archon.</p>
+
+      <div class="project">
+        <h4>1. Archon Core & Intelligence (Engine) — B2B Context-as-a-Service</h4>
+        <p>Платформенный сервис извлечения фактов о кодовой базе и доставки контекста в AI-агенты (Cursor, Copilot).</p>
+        <ul>
+          <li><b>Экономика и издержки:</b> Сократил себестоимость обработки репозиториев на 90% за счет гибридного контура (AST-анализ вместо слепых запросов к LLM).</li>
+          <li><b>CustDev и барьеры внедрения:</b> Провел 15+ глубинных интервью с тимлидами; выявил барьер («боязнь утечки кода») и перестроил ценностное предложение на Privacy-by-Default (хранение только в RAM).</li>
+          <li><b>Управление командой:</b> Руковожу командой из 4 инженеров (Core, ML, Data), сформировал NFR и SLA (обход графа связей &lt;15 мс при NFR &lt;100 мс).</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h4>2. Archon Portal & DevEx Tools — Интерфейсный продукт для инженеров</h4>
+        <p>Интерактивный визуализатор архитектуры (LikeC4) и Git Sync PR-боты для автоматического аудита расхождений (Spec Drift).</p>
+        <ul>
+          <li><b>Активация и онбординг:</b> Спроектировал путь пользователя с Time-to-Value &lt;5 минут (подключение GitHub/GitLab в 2 клика с генерацией первой карты).</li>
+          <li><b>Удержание (Retention):</b> Внедрил автоматического PR-бота с предупреждениями об архитектурном дрейфе непосредственно в код-ревью — повысил WAU в 3 раза.</li>
+          <li><b>Команда:</b> Веду команду из 3 разработчиков (Frontend, UX, Integrations).</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h4>3. OmniSearch Engine — Мультимодальный семантический видеопоиск · <span class="dates">github.com/teamv39/OmniSearch-Engine</span></h4>
+        <ul>
+          <li>Провел CustDev с промышленным заказчиком («Газпром Восток Нефть»), подтвердил боль ручного аудита сотен часов видеозаписей ТБ.</li>
+          <li>Собрал работающий прототип, доказал сокращение времени поиска инцидентов с часов до 3 секунд. Продукт принят заказчиком в эксплуатацию.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== СТРАНИЦА 2 ==================== -->
+<div class="page">
+  <section style="margin-top: 0;">
+    <h2>Опыт работы (Часть 2)</h2>
+
+    <!-- Meridian AI Labs -->
+    <div class="job">
+      <div class="job-head">
+        <h3>Meridian AI Labs — AI-платформа для enterprise-рынка (Сингапур)</h3>
+        <div class="period">Январь 2025 — Декабрь 2025 (12 месяцев)</div>
+      </div>
+      <div class="meta"><i>Роль:</i> Product Manager (B2B Knowledge & AI Agents) · Удалённо</div>
+      <p class="role-note">AI-стартап (seed, $8M): <b>полное продуктовое сопровождение от Discovery и кастдевов до запуска и развития.</b></p>
+      <ul>
+        <li><b>CustDev на международном рынке:</b> На английском языке проводил интервью с enterprise-клиентами Юго-Восточной Азии (Сингапур, Малайзия, Индонезия), изучая барьеры работы с базами знаний и сценарии применения AI-ассистентов.</li>
+        <li><b>Lean-запуск MVP:</b> Проверил гипотезу семантического RAG-ассистента на первых 3 клиентах через быстрый прототип с ручной верификацией данных до масштабных инвестиций в разработку.</li>
+        <li><b>Метрики и удержание:</b> Сократил Time-to-First-Answer с 15 минут (ручной поиск в Wiki) до &lt;2 секунд; добился 80%+ регулярного использования (Weekly Retention) в пилотных отделах.</li>
+        <li><b>Управление командой:</b> Руководил распределенной инженерной командой (2 Backend в Сингапуре, 1 ML в Индии), формировал бэклог по RICE, синхронизировал запросы клиентов со спринтами.</li>
+      </ul>
+    </div>
+
+    <!-- Т-Банк -->
+    <div class="job">
+      <div class="job-head">
+        <h3>Т-Банк</h3>
+        <div class="period">Апрель 2026 — Август 2026 (5 месяцев)</div>
+      </div>
+      <div class="meta"><i>Роль:</i> Product Owner внутреннего продукта archmap · Удалённо</div>
+      <p class="role-note">Инициировал и с нуля запустил внутренний продукт для автоматизации архитектурной документации.</p>
+      <ul>
+        <li><b>0-to-1 инициатива и инсайт:</b> Заметил, что инженеры тратят дни на ручное рисование C4-схем, устаревающих через 2 недели. Сформулировал гипотезу автогенерации карт сервисов из репозиториев через бота.</li>
+        <li><b>Lean-прототип без выделенной команды:</b> Не дожидаясь выделения разработчиков, самостоятельно собрал MVP на базе Telegram-бота, low-code оркестратора n8n и Python-скрипта.</li>
+        <li><b>Пилот и dogfooding:</b> Вывел решение к 3 техлидам, собрал фидбек и докрутил UX под реальные кейсы.</li>
+        <li><b>Бизнес-результаты:</b> Сократил время получения схемы с 1–3 дней до 10–15 минут (в 1 клик), онбординг новичков — с недель до часов. Утвержден руководством и масштабирован на 4 стрима (~25 репозиториев).</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="cols">
+    <div>
+      <section>
+        <h2>Образование</h2>
+        <p><b>Томский политехнический университет (ТПУ)</b></p>
+        <div class="meta">2023 — 2027 · ИШИТР, «Программная инженерия» (4 курс)</div>
+        <p style="margin-top: 4px;" class="meta"><b>Профильные курсы:</b><br>• Бизнес-аналитика и Product Discovery (ТПУ, 2025)<br>• Стартап-акселератор (2024)<br>• Системный анализ (Т-Банк, 2026)</p>
+      </section>
+    </div>
+
+    <div>
+      <section>
+        <h2>Языки</h2>
+        <p><b>Русский:</b> Родной</p>
+        <p><b>Английский:</b> <b>C1 (Advanced)</b></p>
+        <div class="meta" style="margin-top: 2px;">
+          Свободное проведение проблемных интервью (CustDev), защита продуктовых решений, ведение технической документации.
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <section>
+    <h2>Подход к продукту</h2>
+    <ul>
+      <li><b>Автономность и Lean 0-to-1:</b> Быстро двигаюсь в условиях неопределенности. Проверяю гипотезы руками (боты, no-code, ручные пилоты) до того, как привлекать инженерные ресурсы.</li>
+      <li><b>Zero Friction для пользователя:</b> Проектирую сценарии с минимумом действий для первой активации, сокращая Time-to-Value.</li>
+      <li><b>Инженерная база:</b> Глубокое понимание веб-архитектуры, API и ограничений платформ позволяет говорить с разработчиками на одном языке и находить эффективные решения.</li>
+    </ul>
+  </section>
+</div>
+
+</body>
+</html>
