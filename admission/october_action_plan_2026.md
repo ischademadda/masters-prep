@@ -8,10 +8,10 @@
 
 ## 1. Срочные шаги на эту неделю (Чек-лист)
 
-- [ ] **Шаг 1:** Сгенерировать `Denis_Shtepa_CV.pdf` из [`cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv_en.html) — CV уже переведен в research-вариант, осталось только `Cmd+P → Save as PDF`.
+- [ ] **Шаг 1:** Сгенерировать `Denis_Shtepa_CV.pdf` из [`admission/cv/cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv/cv_en.html) — CV уже переведен в research-вариант, осталось только `Cmd+P → Save as PDF`.
 - [ ] **Шаг 2:** Отправить письмо профессору **Zheng Haitao** (Tsinghua SIGS) — *утром в будний день (04:00–06:00 по Томску / 08:00–10:00 по Китаю)*.
 - [ ] **Шаг 3:** Отправить письма профессорам **Xuanzhe Liu** (PKU) и **Lu Chen** (SJTU) — **не в один день с шагом 2**, интервал 2 дня между письмами.
-- [ ] **Шаг 4:** Зарегистрировать аккаунт на **[ielts.neea.cn/en/](https://ielts.neea.cn/en/)** и забронировать слот в Чэнду на **4–5 декабря 2026**.
+- [ ] **Шаг 4:** Оплатить 1,990 RMB (Alipay) и забронировать слот в Чэнду на **4–5 декабря 2026** на **[ielts.neea.cn](https://ielts.neea.cn/)** (аккаунт уже создан).
 - [ ] **Шаг 5:** Заказать в деканате ТПУ выписку оценок за 3 курса с расчетом GPA и печатью.
 - [ ] **Шаг 6:** Предупредить научрука в ТПУ и ментора/лида в Т-Банке о двух рекомендательных письмах.
 
@@ -19,14 +19,14 @@
 
 ## 2. Как сделать CV в PDF за 10 секунд
 
-1. Открой файл [`admission/cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv_en.html) в браузере (Google Chrome или Safari).
+1. Открой файл [`admission/cv/cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv/cv_en.html) в браузере (Google Chrome или Safari).
 2. Нажми сочетание клавиш **`Cmd + P`** (Печать).
 3. В диалоговом окне:
    * **Принтер / Назначение:** *Сохранить как PDF (Save as PDF)*.
    * **Размер бумаги:** *A4*.
    * **Поля (Margins):** *По умолчанию (Default)* или *Минимальные*.
    * **Параметры:** снять галочку с *«Колонтитулы (Headers and footers)»*.
-4. Сохрани файл как **`Denis_Shtepa_CV.pdf`** в папку `admission/`.
+4. Сохрани файл как **`Denis_Shtepa_CV.pdf`** в папку `admission/cv/` (или в `admission/`).
 
 > Что уже исправлено в CV (06.10.2026): заголовок → `Research-Oriented System Designer & Team Lead — AI-Native Architecture (KG / MCP / RAG)`, summary → `Research-oriented...`, GPA → `3.93/5.0 — Top 10%, ~3.5/4.0`, английский → `IELTS 7.5 expected Dec 2026`, T-Bank → `Apr 2026 — Aug 2026 (Internship, Full-Cycle System Design)`, GitHub — один линк.
 
