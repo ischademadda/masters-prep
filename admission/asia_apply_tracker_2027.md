@@ -149,8 +149,9 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ## 6. Связанные файлы
 
-- `admission/asia_masters_2027_shortlist_and_cv.md` — шортлист + стратегия
+- `admission/guides/universities_shortlist_cheat_sheet.md` — шортлист программ, грантов и Agency Numbers
 - `admission/cv/cv_en.html` — **единственный источник CV** → печать в `Denis_Shtepa_CV.pdf`
+- `admission/cv/career_portfolio_cheatsheet.md` — **шпаргалка STAR-кейсов и оцифрованных метрик**
 - `admission/october_action_plan_2026.md` — **актуальные письма волны 1 + чек-лист недели**
 - `admission/letters_drafts_2027.md` — драфты писем волн 2–3 + заготовки ответов профессорам
 - `admission/study_plans/csc_study_plan_2027.md` — Study Plan для Китая (адаптировать под каждый вуз)
