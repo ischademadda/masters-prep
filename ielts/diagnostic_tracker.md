@@ -2,14 +2,12 @@
 
 > **Кандидат:** Денис Штэпа  
 > **Цель:** 7.5 Overall (L 8.0+, R 8.0+, W 7.0+, S 7.5+)  
-> **Дата старта диагностики:** 16 сентября 2026  
-> **Сдача:** Первая половина ноября 2026 (Астана, IELTS on Computer)  
-> **Базовый уровень:** Английский C1 (свободный разговорный, беглое аудирование)  
+> **Сдача:** **5 декабря 2026 (Чэнду, Китай — Sichuan University IOC Test Centre, Morning session)**. Регистрация и оплата подтверждены (e-TRF: 6–10 дек).  
 > **Ключевой фокус:** формат, критерии оценки (Band Descriptors), отработка технических ловушек.  
 > **Материалы в репозитории:**  
-> - 📄 [Шпаргалка перед сном (Bedtime Cheat Sheet)](file:///Users/shteppinson/mylife/maga/ielts/bedtime_review_cheat_sheet.md)  
-> - 📅 [План подготовки на 3 дня (3-Day Sprint)](file:///Users/shteppinson/mylife/maga/ielts/three_day_plan.md)  
-> - 📘 [Гайд по Writing Task 2](file:///Users/shteppinson/mylife/maga/ielts/writing_task2_master_guide.md)  
+> - 📄 [Шпаргалка перед сном (Bedtime Cheat Sheet)](file:///Users/shteppinson/mylife/maga/ielts/cheat_sheets/bedtime_review_cheat_sheet.md)  
+> - 📘 [Гайд по Writing Task 2](file:///Users/shteppinson/mylife/maga/ielts/cheat_sheets/writing_task2_master_guide.md)  
+> - 📖 [Мастер-гайд по Reading (Band 8.5 Strategy)](file:///Users/shteppinson/mylife/maga/ielts/cheat_sheets/reading_master_guide.md)  
 > - ✈️ [Материалы для чтения офлайн](file:///Users/shteppinson/mylife/maga/ielts/flight_pack/)
 
 ---

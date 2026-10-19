@@ -14,7 +14,7 @@
 
 | Задача | Где лежит / Что открыть | Детали |
 | :--- | :--- | :--- |
-| **1. Оплатить IELTS и занять слот** | [ielts.neea.cn](https://ielts.neea.cn/) | Аккаунт создан. Оплата 1,990 RMB (Alipay), тест в Чэнду 4–5 дек. |
+| **1. IELTS Academic в Чэнду** | ✅ **Забронировано и оплачено** | 5 декабря 2026 (Sichuan University IOC, e-TRF: 6–10 дек). |
 | **2. Экспортировать CV в PDF** | [`admission/cv/cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv/cv_en.html) | Открыть в браузере → `Cmd+P` → Save as PDF (`Denis_Shtepa_CV.pdf`). |
 | **3. Отправить Письмо №1 профессору** | [`admission/october_action_plan_2026.md`](file:///Users/shteppinson/mylife/maga/admission/october_action_plan_2026.md) | Prof. Zheng Haitao (Tsinghua SIGS). Отправка утром (04:00–06:00 МСК+4). |
 | **4. Заказать выписку в деканате ТПУ** | Деканат ИШИТР ТПУ | Выписка за 3 курса с расчетом GPA и печатью. |
