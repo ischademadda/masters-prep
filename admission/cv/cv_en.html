@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Denis Shtepa — CV</title>
 <style>
-  @page { size: A4; margin: 12mm 15mm; }
+  @page { size: A4; margin: 9mm 15mm; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: #1a202c;
@@ -40,11 +40,11 @@
   Email: <a href="mailto:ischademadda@gmail.com">ischademadda@gmail.com</a> &nbsp;|&nbsp;
   Telegram: @ischademadda &nbsp;|&nbsp;
   GitHub: <a href="https://github.com/ischademadda">github.com/ischademadda</a> &nbsp;|&nbsp;
-  BSc Software Engineering (TPU, 2027, GPA: 3.93/5.0 — Top 10%, ~3.5/4.0)
+  BSc Software Engineering (TPU, expected 2027, GPA: 3.93/5.0)
 </div>
 
 <div class="summary">
-  <strong>Research-oriented System Designer and Team Lead</strong> with 2+ years leading an engineering R&D team (4–7 engineers). Shipped 2 production platforms from 0 to 1: <strong>archmap</strong> (adopted across 4 products / 25 microservice repos at T-Bank, reducing C4 architecture delivery from 3 days to 15 mins) and <strong>OmniSearch Engine</strong> (on-premise multimodal RAG video search deployed at Gazprom Vostok Neft). Focused on AI-native architecture — LLM pipelines with verifiable Knowledge Graphs, MCP-based agent context — and applied systems research. Seeking a Master's in Computer Science / Software Engineering (Fall 2027).
+  <strong>Research-oriented System Designer and Team Lead</strong> with 2+ years leading an engineering R&D team (4–7 engineers). Built <strong>archmap</strong> from 0 to 1 at T-Bank (covered about 40 microservice repositories, generating C4 architecture documentation in about 15 minutes per repository); now leading the design and early implementation of <strong>Archon</strong>, an AI-native architecture knowledge platform (diploma project). Focused on AI-native architecture — LLM pipelines with verifiable Knowledge Graphs, MCP-based agent context — and applied systems research. Seeking a Master's in Computer Science / Software Engineering (Fall 2027).
 </div>
 
 <h2>Leadership & Professional Experience</h2>
@@ -59,18 +59,23 @@
     <span>Sep 2024 — Present</span>
   </div>
 
-  <div class="project-title">1. Archon — AI-Native Source of Truth & Enterprise Architecture Platform <span class="project-tech">[Kotlin, Python, Temporal, PostgreSQL + AGE, Qdrant, LikeC4]</span></div>
+  <div class="project-title">1. Archon — AI-Native Source of Truth & Architecture Platform (Diploma, in development) <span class="project-tech">[Kotlin, Python, Temporal, PostgreSQL + AGE, Qdrant, LikeC4]</span></div>
   <ul>
-    <li><strong>Core Product Vision:</strong> Solved architectural drift by designing an automated Knowledge Graph platform that synchronizes C4 architecture with code and feeds verified context to AI engineering agents via MCP.</li>
-    <li><strong>System Design:</strong> Decomposed 17 logical modules into 3 polyglot services orchestrated by Temporal Polyglot Workflows; authored 7 ADRs closing 100% of technical blockers prior to implementation.</li>
-    <li><strong>Code-to-Architecture Pipeline:</strong> Built a hybrid extraction pipeline: deterministic AST parsing (Tree-sitter) + 2-phase LLM extraction with a strict "Proof-of-Truth" rule (discarding unproven graph edges), cutting LLM tokens by 90%.</li>
-    <li><strong>Scalable Graph Storage:</strong> Benchmarked multi-tenant Graph-per-Tenant isolation on PostgreSQL 16 + Apache AGE across 50 schemas: Impact Analysis traversal &lt;15ms at depth 4 (NFR &lt;100ms).</li>
+    <li><strong>Core Product Vision:</strong> Addressing architectural drift by designing an automated Knowledge Graph platform that synchronizes C4 architecture with code and feeds verified context to AI engineering agents via MCP.</li>
+    <li><strong>System Design:</strong> Decomposed the system into 17 logical modules packaged as 3 polyglot services orchestrated by Temporal Workflows (ADR-0007); authored 7 ADRs on core trade-offs (multi-tenancy, packaging, MCP) prior to implementation. Base skeleton in progress.</li>
+    <li><strong>Code-to-Architecture Pipeline:</strong> Designed a hybrid extraction pipeline: deterministic AST parsing (Tree-sitter) + 2-phase LLM extraction with a strict "Proof-of-Truth" rule (discarding unproven graph edges) and a token-saving File Selector stage.</li>
+    <li><strong>Scalable Graph Storage:</strong> Selected Graph-per-Tenant isolation on PostgreSQL 16 + Apache AGE (ADR); defined NFR for Impact Analysis traversal (&lt;100ms at depth 4), to be validated in benchmarks.</li>
   </ul>
 
-  <div class="project-title">2. OmniSearch Engine — On-Premise Multimodal Video RAG System <span class="project-tech">[Kotlin Ktor, Go, Python Whisper/CLIP, Qdrant, MinIO S3]</span></div>
+  <div class="project-title">2. OmniSearch Engine — On-Premise Multimodal Video RAG System (R&D) <span class="project-tech">[Kotlin Ktor, Go, Python Whisper/CLIP, Qdrant, MinIO S3]</span></div>
   <ul>
     <li><strong>System Architecture:</strong> Separated Control Plane (Kotlin Ktor) and Compute Plane (Go worker pool, Python ML nodes); defined OpenAPI 3.0 contracts and asynchronous media processing finite-state machine.</li>
-    <li><strong>Industrial Adoption:</strong> Delivered on-premise semantic video search (Whisper audio transcription + CLIP frame embeddings); deployed at <strong>Gazprom Vostok Neft</strong> for safety compliance monitoring.</li>
+    <li><strong>Applied Scenario:</strong> Built a working prototype of on-premise semantic video search (Whisper audio transcription + CLIP frame embeddings) for safety compliance monitoring; demonstrated it live to <strong>Gazprom Vostok Neft</strong> specialists (prototype only, not deployed in production).</li>
+  </ul>
+
+  <div class="project-title">3. Archonity — Static Execution-Path Analyzer (TechArena 2026 hackathon, Huawei R&D case) <span class="project-tech">[Rust, Python, Tree-sitter, local LLM via llama.cpp]</span></div>
+  <ul>
+    <li><strong>Engineering:</strong> Co-developed (team of 3; ~285 of ~590 commits) a static analyzer predicting which methods, calls, remote requests and SQL tables a user scenario touches in the 41-microservice Train Ticket benchmark: deterministic Rust engine, a local LLM that only maps scenario text to endpoints, file-and-line evidence for every predicted edge.</li>
   </ul>
 </div>
 
@@ -84,7 +89,7 @@
     <span>Apr 2026 — Aug 2026 (Internship, Full-Cycle System Design)</span>
   </div>
   <ul>
-    <li><strong>archmap Platform (Founder & PO):</strong> Initiated and launched an automated C4 architecture generator from scratch. Combined AST extraction, LLMs, and LikeC4 with CI/CD integration. Reduced documentation delivery from 1–3 days to 15 mins; approved by management and scaled across 4 products (~25 repos).</li>
+    <li><strong>archmap Platform (Sole Developer & Owner):</strong> After a platform lead voiced the need for a direction map, built an automated C4 architecture generator solo, aligned with leads. Combined AST extraction, LLMs, and LikeC4 with CI/CD integration. Generated C4 documentation in about 15 minutes per repository; approved by management and scaled to about 40 repositories.</li>
     <li><strong>Cross-System Integrations:</strong> Designed end-to-end specifications for co-branding features across 3 external systems with backward-compatible REST APIs; eliminated delivery blockers at the specification phase.</li>
     <li><strong>Operational Efficiency:</strong> Refactored on-call runbooks across 145 incidents, reducing mean response time by 40%.</li>
   </ul>
@@ -94,7 +99,7 @@
 <div class="skills-grid">
   <div class="skills-row"><span class="skills-label">Product & Architecture:</span> System Design, C4 Model, LikeC4, OpenAPI/REST, ADR/RFC, BPMN, Use Cases, NFR, Impact Analysis.</div>
   <div class="skills-row"><span class="skills-label">Distributed Systems & AI:</span> Microservices, Event-Driven Architecture, Temporal, Knowledge Graphs (Apache AGE), Vector DBs (Qdrant), RAG, Model Context Protocol (MCP).</div>
-  <div class="skills-row"><span class="skills-label">Languages & Technologies:</span> Kotlin, Go, Python, TypeScript, PostgreSQL, Redis, Docker, Git &nbsp;|&nbsp; English C1 (IELTS 7.5 expected Dec 2026), Chinese HSK (learning).</div>
+  <div class="skills-row"><span class="skills-label">Languages & Technologies:</span> Kotlin, Go, Python, TypeScript, PostgreSQL, Redis, Docker, Git &nbsp;|&nbsp; English (IELTS Academic scheduled 5 Dec 2026), Chinese HSK (learning).</div>
 </div>
 
 </body>

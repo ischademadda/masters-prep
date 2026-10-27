@@ -23,18 +23,18 @@ My academic strength is not purely theoretical but project-driven system analysi
 
 ### 3. Research & Project Experience
 
-**Archon — AI-native Source of Truth & Enterprise Docs-as-Code Platform (Team of 4, Diploma Project, 2026)**
+**Archon — AI-native Source of Truth & Enterprise Docs-as-Code Platform (Team of 4, Diploma Project, 2026–2027; architecture complete, implementation starting)**
 Archon is a Managed SaaS platform that continuously synchronizes architectural documentation with source code and delivers verified context to engineers and AI agents via Model Context Protocol (MCP), interactive C4 diagrams, and Git Sync PR-bots.
 
 My contributions as Team Lead:
 - **System Decomposition:** Designed 17 orthogonal modules grouped into 5 blocks (Showcase, Decision, Brain, Factory, Foundation) and packaged them into 3 deployable services (archon-core-service in Kotlin, archon-ai-service in Python, archon-portal in React) orchestrated by Temporal Polyglot Workflows (ADR-0007).
-- **Code-to-Architecture Pipeline:** Formalized Extraction Contract v1.0 and a two-phase hybrid pipeline: deterministic AST parsing (Tree-sitter) + semantic LLM extraction (File Selector Agent that reads only file trees to save 90% tokens, then Architecture Extractor Agent) + Reconciliation with Proof-of-Truth (every graph edge requires evidence_files with file paths and line numbers, otherwise discarded).
-- **Knowledge Graph R&D:** Led R&D on PostgreSQL 16 + Apache AGE for multi-tenant Graph-per-Tenant isolation (each tenant = separate PostgreSQL schema via ag_catalog). Validated creation and deletion of 50 isolated tenant graphs without degradation; Impact Analysis traversal at depth 4 in <15ms (NFR <100ms).
+- **Code-to-Architecture Pipeline:** Formalized Extraction Contract v1.0 and a two-phase hybrid pipeline: deterministic AST parsing (Tree-sitter) + semantic LLM extraction (File Selector Agent that reads only file trees to keep token costs low, then Architecture Extractor Agent) + Reconciliation with Proof-of-Truth (every graph edge requires evidence_files with file paths and line numbers, otherwise discarded).
+- **Knowledge Graph Design:** Chose PostgreSQL 16 + Apache AGE for multi-tenant Graph-per-Tenant isolation (each tenant = separate PostgreSQL schema via ag_catalog) and set the NFR for Impact Analysis traversal at depth 4 (<100ms), to be benchmarked as implementation proceeds.
 - **Delivery Management:** Own the GitHub Projects board (37 tasks, milestones Phase 0 and Phase 1), Docs-as-Code process (AGENTS.md), and all 7 ADRs (ADR-0001 to ADR-0007).
 
 **OmniSearch Engine — On-Premise Multimodal RAG System for Video Archives (Team of 7, 2026)**
 A microservice RAG system for semantic search over video archives (Whisper + CLIP + Qdrant).
-My role as System Designer: separated Control Plane (Kotlin/Ktor) and Compute Plane (Go/FFmpeg, Python/FastAPI), designed OpenAPI 3.0 contracts, async state machine (UPLOADED -> PROCESSING_MEDIA -> PROCESSING_ML -> READY), and vector storage in Qdrant. The project was adopted by Gazprom Vostok Neft for HSE compliance automation.
+My role as System Designer: separated Control Plane (Kotlin/Ktor) and Compute Plane (Go/FFmpeg, Python/FastAPI), designed OpenAPI 3.0 contracts, async state machine (UPLOADED -> PROCESSING_MEDIA -> PROCESSING_ML -> READY), and vector storage in Qdrant. The system was designed for HSE compliance monitoring; we exchanged expertise on the use case with Gazprom Vostok Neft specialists.
 
 **archmap — Automated C4 Documentation Generator (Solo, T-Bank, 2026)**
 From a single request "build an architecture map", I initiated, designed (RFC, pipeline, contracts), and prototyped a service that generates LikeC4 diagrams from code via LLM (File Selector + Extractor) and deterministic generators (json_to_likec4.py), orchestrated in n8n with a TiMe-bot for one-click launch. Result: C4 delivery from 1-3 days to 10-15 minutes, onboarding from weeks to hours. Scaled to 4 products (~25 repos), approved by management. This is my key Product Management case.
@@ -59,7 +59,7 @@ Specifically, at [Tsinghua/PKU], I am interested in Professor [Name, e.g., Prof.
 **Year 1 — Foundation & Deepening:**
 - Complete core courses: Advanced Software Architecture, Distributed Systems, Machine Learning Systems, Knowledge Graph Engineering, Database Systems (Graph DB).
 - Improve Chinese to HSK 5 (currently HSK 3 in progress) and achieve academic fluency.
-- Join the lab of Prof. [Name] as a research assistant. Replicate and extend Archon's Graph-per-Tenant model to 500+ tenants and publish a comparative study of Apache AGE vs. NebulaGraph/TuGraph for enterprise multi-tenancy.
+- Join the lab of Prof. [Name] as a research assistant. Evaluate Archon's Graph-per-Tenant model at 500+ tenants and publish a comparative study of Apache AGE vs. NebulaGraph/TuGraph for enterprise multi-tenancy.
 - Publish one conference paper on "Proof-of-Truth for LLM-based Architecture Extraction".
 
 **Year 2 — Research & Thesis:**
@@ -71,14 +71,14 @@ Specifically, at [Tsinghua/PKU], I am interested in Professor [Name, e.g., Prof.
 
 After graduation, I plan to work as a **Platform / Technical Product Manager** in an international technology company, building AI-native developer platforms. In the long term, I aim to return to the Russia/CIS region or work in a cross-border context to help enterprises adopt AI-native Source of Truth practices, bridging the gap between rapid AI-assisted development and sustainable architecture governance.
 
-I am ready to contribute my R&D team leadership experience (2 years, 7 people max), production platform experience, and strong system design background to the academic community of [University Name].
+I am ready to contribute my R&D team leadership experience (2 years, 7 people max), hands-on product experience (archmap at T-Bank), and strong system design background to the academic community of [University Name].
 
 ---
 
 ### Checklist для подачи CSC
 
 - [ ] Адаптируй под каждый вуз: замени [Tsinghua/PKU] и профессора, добавь 1-2 его статьи
-- [ ] Уложись в 800-1000 слов, без воды, с метриками (<15ms, 50 tenants, 90% tokens, 4 products/25 repos)
+- [ ] Уложись в 800-1000 слов, без воды, только с реальными метриками (archmap: 4 products/25 repos). Для Archon — честный статус (архитектура + каркас) и что именно планируешь измерить
 - [ ] Приложи как `Study Plan` в PDF на бланке (подпись, дата)
 - [ ] Два рекомендательных письма: одно от научного руководителя ТПУ, второе — от лида из Т-Банка (акцент на archmap)
 - [ ] Нотариальный перевод диплома + транскрипт с GPA

@@ -2,7 +2,7 @@
 
 > **Кандидат:** Денис Штэпа  
 > **Цель:** 7.5 Overall (L 8.0+, R 8.0+, W 7.0+, S 7.5+)  
-> **Сдача:** **5 декабря 2026 (Чэнду, Китай — Sichuan University IOC Test Centre, Morning session)**. Регистрация и оплата подтверждены (e-TRF: 6–10 дек).  
+> **Сдача:** **5 декабря 2026 (Чэнду, Китай — Sichuan University IOC Test Centre, Morning session)**. Регистрация и оплата подтверждены. Результат 6–10 дек, e-TRF до ~11 дек. С 01.09.2026 в материковом Китае IELTS только на компьютере.  
 > **Ключевой фокус:** формат, критерии оценки (Band Descriptors), отработка технических ловушек.  
 > **Материалы в репозитории:**  
 > - 📄 [Шпаргалка перед сном (Bedtime Cheat Sheet)](file:///Users/shteppinson/mylife/maga/ielts/cheat_sheets/bedtime_review_cheat_sheet.md)  
@@ -51,6 +51,10 @@
   - *Way more* ❌ → **Substantially more / considerably more** ✅.
   - *Is a must* ❌ → **Is indispensable / is essential** ✅.
   - *Candidates which* ❌ → **Candidates who** (для людей только *who*).
+- **Ловушка №17 (Articles — пропуск a/the, 26.10.2026, свободный текст про сцену из Mentalist):** *Group of friends*, *in inappropriate place*, *in container*, *a liquid concrete* (лишний), *that man* вместо *the man*. 5 случаев на 5 предложений.
+  - *Правило:* Первое упоминание единичного предмета → **a/an**; уже упомянутый → **the**; неисчисляемое (*concrete*) → без артикля.
+- **Ловушка №18 (Word choice / collocations в нарративе, 26.10.2026):** *made alert* ❌ → **raised the alarm / warned them**; *inappropriate place* ❌ → **restricted area / trespassing**; *drowned corp in container* ❌ → **dumped the corpse into a container of liquid concrete** (*drown* — про живых; *corp* = корпорация, труп = **corpse**); *to hide the crime* → **to cover up the crime**; *stepped off* ❌ → **backed down**.
+- **Ловушка №19 (Spelling + tense, 26.10.2026):** *accidentely* → **accidentally**; *piss him of* → **off**; *the guard hasn't stepped off* — Present Perfect вместо Past Simple (та же причина, что в №9: нарратив про прошлое → Past Simple). Вторая попытка: *sinked* ❌ → **sank** (sink–sank–sunk, неправильный глагол); артикли перед *container*, *construction site*, *inappropriate place* всё ещё пропущены (прогресс: *Group* исправлено, время исправлено, *corpse* исправлено).
 - **Lego-конструктор для Overview (Band 8.0):**
   - *Предложение 1 (Контраст):* `While [X] witnessed a dramatic surge to become the most prevalent [item], [Y] experienced a steep decline over the period.`
   - *Предложение 2 (Умеренный рост + аутсайдер):* `Meanwhile, the proportion of [Z] continued to climb steadily, whereas [W] remained by far the least widespread category.`

@@ -14,9 +14,9 @@
 | Месяц | Китай CSC | Тайвань MOE/ICDF | Корея GKS | Общее |
 |---|---|---|---|---|
 | **Сен 2026** | ✅ Профессора выбраны (Zheng Haitao, Xuanzhe Liu, Lu Chen). Портал Tsinghua открыт с середины сентября. Готовить доки + персонализированные письма | ✅ Выбраны программы NTHU IMBA + IMPISA (NTU GMBA отпал — требует 2 года опыта) | ✅ Выбраны KAIST SoC / SNU TEMEP, лабы изучены | IELTS подготовка стартовала, HSK1 в процессе |
-| **Окт 2026** | **Письма волне 1 (Zheng → Liu → Lu Chen, интервал 2 дня).** Подавать на Tsinghua (портал открыт), готовить PKU (окно ~с 20 окт) и SJTU (открывается ~15 окт) | — | — | Пробный IELTS, HSK1 -> HSK2 |
+| **Окт 2026** | **Письма волне 1 (Zheng → Liu → Lu Chen, интервал 2 дня).** Подавать на Tsinghua (портал открыт), готовить PKU (окно 26.10–25.12, офиц.) и SJTU (открывается ~15 окт) | — | — | Пробный IELTS, HSK1 -> HSK2 |
 | **Ноя 2026** | Готовить финальные доки, ждать ответов профессоров | — | — | HSK2, бронь IELTS в Чэнду (ielts.neea.cn) |
-| **Дек 2026** | ⚠️ **Tsinghua CSC: подать до Mid-December 2026 (First-Round Deadline)**. PKU: окно до ~23 декабря. **SJTU: 1-й раунд CSC ~15.12. ZJU: CSC Type B до ~31.12** | **NTHU admission открывается ~15.12** (окно до ~25.02). ICDF окно открыто с 01.12 | **KAIST Fall Early Track ~02-16.12** (опционально, решение в марте) | **IELTS в Чэнду 4–5 декабря 2026** (British Council Chengdu, Computer-delivered). HSK3 старт |
+| **Дек 2026** | ⚠️ **Tsinghua CSC: подать до Mid-December 2026 (First-Round Deadline)**. PKU: окно до 25 декабря (офиц.). **SJTU: 1-й раунд CSC ~15.12. ZJU: CSC Type B до ~31.12** | **NTHU admission открывается ~15.12** (окно до ~25.02). ICDF окно открыто с 01.12 | **KAIST Fall Early Track ~02-16.12** (опционально, решение в марте) | **IELTS в Чэнду 5 декабря 2026** (Sichuan University IOC, computer-delivered). HSK3 старт |
 | **Янв 2027** | Портал campuschina.org (Type A если надо). **NJU pre-admission до ~20.01** (если нужен запасной слот) | Подать NTHU (IMBA + IMBA-ICDF + IMPISA) — не тянуть до февраля | — | HSK3 |
 | **Фев 2027** | — | **Дедлайн NTHU ~25.02. Открытие Taiwan MOE (01.02)**, дедлайн ICDF **15.03** | **GKS Embassy Track ~12-25.02** (квота РФ ~20) + **GKS University Track в KAIST с ~13.02** | HSK3 пробники |
 | **Мар 2027** | Сдать HSK3 официально (для следующих циклов/визы) | **Дедлайн MOE 31.03, ICDF 15.03** | **GKS University Track до ~18.03. KAIST Fall Regular ~03-17.03** | Приложить HSK3 сертификат |
@@ -32,7 +32,7 @@
 
 - [x] Загранпаспорт (срок >2029)
 - [ ] Диплом + транскрипт ТПУ с GPA (нотариальный перевод на англ/китайский, апостиль)
-- [ ] IELTS Academic — **сдача 5 декабря 2026, Чэнду** (Sichuan University IOC Test Centre, e-TRF 6–10 дек) — бронь и оплата ✅ подтверждены
+- [ ] IELTS Academic — **сдача 5 декабря 2026, Чэнду** (Sichuan University IOC Test Centre; результат 6–10 дек, e-TRF до ~11 дек) — бронь и оплата ✅ подтверждены
 - [ ] HSK3 сертификат (для Китая плюс, для остальных опционально)
 - [ ] 2 рекомендательных письма (см. ниже)
 - [ ] CV (Research-oriented, 1 стр.) — `admission/cv/cv_en.html` → `Denis_Shtepa_CV.pdf` (единственный источник правды)
@@ -67,7 +67,7 @@
 
 | Экзамен | Цель | Дата сдачи | Результат | Статус |
 |---|---|---|---|---|
-| IELTS Academic | 7.5+ (мин 6.5) | **5 декабря 2026, Чэнду** (Sichuan University IOC, Morning) | — | ✅ **Забронировано и оплачено (1,990 RMB)**. Результаты: 6–10 дек. |
+| IELTS Academic | 7.5+ (мин 6.5) | **5 декабря 2026, Чэнду** (Sichuan University IOC, Morning) | — | ✅ **Забронировано и оплачено (1,990 RMB)**. Результат 6–10 дек, e-TRF до ~11 дек. |
 | HSK3 | 240+/300 | Начало марта 2027 | — | HSK1 в процессе |
 | HSK4 | 180+/300 | Июнь 2027 | — | — |
 | TOPIK (если GKS) | Не нужен, но плюс | — | — | — |
@@ -78,9 +78,9 @@
 
 | Волна | Вуз | Профессор | Лаборатория / Тема | Email | Дата письма | Ответ |
 |---|---|---|---|---|---|---|
-| 1 | Tsinghua SIGS | **Zheng Haitao** (Assoc. Prof.) | Knowledge Engineering, KG completion; RLHF-V (CVPR 2024) | zheng.haitao@sz.tsinghua.edu.cn | — | — |
+| 1 | Tsinghua SIGS | **Zheng Haitao** (Assoc. Prof.) | Knowledge Engineering, KG completion; RLHF-V (CVPR 2024) | zheng.haitao@sz.tsinghua.edu.cn | 20.10.2026 (+ исправляющее письмо 27.10: цифры Archon были целями, OmniSearch не задеплоен) | нет ответа |
 | 1 | PKU SEI | **Xuanzhe Liu** (Prof.) | LLM serving / RAG / agents: RAGCache (TOCS 2026), BAMAS (AAAI 2026) | liuxuanzhe@pku.edu.cn | — | — |
-| 1 | SJTU School of CS | **Lu Chen** (Prof.) | Dialogue / knowledge-grounded generation, X-LANCE | chenlusteve@sjtu.edu.cn | — | — |
+| 1 | SJTU School of CS | **Lu Chen** (Prof.) | Dialogue / knowledge-grounded generation, X-LANCE | chenlusz@sjtu.edu.cn | — | — |
 | 2 | KAIST | **Shin Yoo** (Endowed Chair Prof.) | LLM for SE: COSMosFL (ICSE 2025), autonomous testing agents | shin.yoo@kaist.ac.kr | — | — |
 | 2 | NTHU IMS | **Jerry Chou** (Distr. Prof., **директор IMS**) | Distributed systems, cloud, resource management | jchou@cs.nthu.edu.tw | — | — |
 | 2 | SNU TEMEP | **Hwang Junseok** (Prof., DIGITALOGY) | AI technology diffusion, knowledge management | junhwang@snu.ac.kr | — | — |
@@ -90,7 +90,7 @@
 | 3 | NTU CSIE | Yun-Nung Chen (Prof.) | LLM + RAG: fact-centric RAG (ACL 2025), TraceSafe (2026) | yvchen@csie.ntu.edu.tw | — | — |
 | 3 | NTU CSIE | Wen-Huang Cheng (Prof., CSIE Chair) | Multimodal AI, digital transformation (GMBA angle) | wenhuang@csie.ntu.edu.tw | — | — |
 | 3 | NTHU | Chin-Yu Huang (Prof., дир. Information Security) | SE, software reliability/testing | cyhuang@cs.nthu.edu.tw | — | — |
-| — | SJTU School of CS | Xiaodong Gu (Prof.) | SE / code intelligence — **резерв к Lu Chen** (SJTU требует 1 acceptance letter, достаточно одного; писать Gu только если Lu Chen не отвечает 10+ дней) | — | — | — |
+| — | SJTU School of CS | Xiaodong Gu (Prof.) | SE / code intelligence — **параллельно с Lu Chen** (разные лабы; нужен один acceptance letter, но до ~15.12 мало времени, ждать 10 дней нельзя) | план 28.10.2026 | — |
 
 **Волны писем (обновлено 06.10.2026):** 1 — **6–10 октября** (Zheng Haitao → Xuanzhe Liu → Lu Chen, интервал 2 дня; SJTU в волне 1 т.к. acceptance letter обязателен до подачи); 2 — середина октября (Shin Yoo, Jerry Chou, Hwang Junseok); 3 — конец октября / дубли.
 
@@ -101,19 +101,19 @@
 | # | Страна | Вуз | Программа | Портал | Дедлайн | Статус | Результат |
 |---|---|---|---|---|---|---|---|
 | 1 | Китай | Tsinghua Shenzhen | Data Science & IT (master) | yzbm.tsinghua.edu.cn (с середины сент 2026) + campuschina | ⚠️ **Для CSC: mid-Dec 2026** (First-Round). Общий дедлайн программы 15.05.2027 | — | — |
-| 2 | Китай | PKU | Software Engineering | isd.pku.edu.cn (окно ~20 окт — ~23 дек 2026) + campuschina | ⚠️ **~23 декабря 2026** (по циклу 2026: 20.10-23.12) | — | — |
+| 2 | Китай | PKU | Software Engineering | isd.pku.edu.cn, studyatpku.com (окно 26.10–25.12.2026; 800 RMB за программу, до 2 программ) + campuschina | **25 декабря 2026** (офиц., isd.pku.edu.cn id=839, проверено 27.10; CS English-taught в цикле 2026 шёл до 10.01, гайд 2027 по CS ищи отдельно) | — | — |
 | 3 | Китай | ZJU **или** SJTU | Software Engineering (ZJU, English-taught) / Computer Science and Technology (SJTU School of CS) | ZJU: iczu.zju.edu.cn (~CSC до 31.12). SJTU: apply.sjtu.edu.cn (открывается ~15 окт; CSC 1-й раунд ~15.12, финал ~15.02) | **ZJU: ~31 декабря 2026** (CSC Type B, цикл 2026: 31.12). **SJTU: ~15 декабря 2026** (1-й раунд CSC, agency 10248). ⚠️ SJTU School of CS требует **acceptance letter от супервизора ДО подачи** — Lu Chen в волне 1 | — | — |
 | 4 | Тайвань | ~~NTU Global MBA~~ | ❌ **ОТПАЛ 11.09.2026: требует 2 года опыта работы** (Proof of Work Experience обязателен). ❌ NTHU Service Science тоже отпал: магистратура ISS закрыта для иностранцев (только PhD), в ICDF не входит. **Замена: NTHU IMBA** (work experience optional) — строка 5 | — | — | — | — |
 | 5 | Тайвань | NTHU | **IMBA** (замена NTU GMBA, work exp. optional) + **IMPISA** (SE-профиль). ❌ **Institute of Service Science отпал**: магистратура ISS для иностранцев закрыта (только PhD, гайдлайны NTHU Fall 2026/Spring 2027), в ICDF не входит | nthuoga-admission.vm.nthu.edu.tw. Одновременно: NTHU admission (IMBA regular + IMBA-ICDF = 2 программы, fee 2,000 TWD) + стипендия ICDF на icdf.org.tw | **NTHU: ~15.12.2026 — 25.02.2027** (паттерн 3 лет: 15.12-25.02; объявление ~ноябрь). **ICDF: 01.12.2026 — 15.03.2027** (официально). MOE: 01.02-31.03.2027. IELTS 6.0 | — | — |
 | 6 | Корея | KAIST | School of Computing | gradapply.kaist.ac.kr. **3 канала:** (а) Fall Early Track ~02-16.12.2026, (б) Fall Regular ~03-17.03.2027, (в) GKS University Track ~13.02-18.03.2027 | ⚠️ **Fall Regular: ~3-17 марта 2027** (по циклу 2026: 3-17.03 — НЕ сентябрь-октябрь!). Fall Early: ~2-16.12.2026. GKS Univ: ~13.02-18.03.2027. **Regular + GKS University можно одновременно** (официальный FAQ KAIST), Embassy + University — нельзя вместе | — | — |
 | 7 | Корея | SNU | TEMEP | temep.snu.ac.kr | ~03.2027 | — | — |
-| 8 | Китай (запасные) | NJU / HUST | Master of Computer Technology (NJU, 2 года) / CS and Technology (HUST) | NJU: nju.17gz.org (CSC Type B: ~01.11.2026-20.01.2027, потом портал CSC до ~17.03, agency 10284). HUST: iso.hust.edu.cn (окно ~15.10.2026-01.03.2027, agency 10487) | NJU ~20.01.2027, HUST ~01.03.2027 | — | — |
+| 8 | Китай (запасные) | NJU / HUST | Master of Computer Technology (NJU, 2 года) / CS and Technology (HUST) | NJU: nju.17gz.org (CSC Type B: ~01.11.2026-20.01.2027, потом портал CSC до ~17.03, agency 10284). HUST: iso.hust.edu.cn (окно 15.10.2026–25.02.2027, agency 10487; взнос 600 CNY или 100 USD, в 2026 оплата до 01.03) | NJU ~20.01.2027, HUST 25.02.2027 (оплата взноса ~01.03) | — | — |
 
 ---
 
 ## 4. Бюджет и логистика
 
-- IELTS: ~15-20k руб (экзамен ~2 170 RMB на ielts.neea.cn + перелёт/проживание Чэнду 3–8 декабря; оплата — Alipay/карта друга или зарубежная; **Астана больше не актуальна**)
+- IELTS: ~15-20k руб (экзамен 1 990 RMB, оплачено + перелёт/проживание Чэнду 3–8 декабря; оплата — Alipay/карта друга или зарубежная; **Астана больше не актуальна**)
 - HSK3: ~3-4k руб
 - Переводы + апостиль: ~15-20k руб
 - Подачи: CSC бесплатно, Taiwan ~50$ за вуз, GKS бесплатно
@@ -130,7 +130,7 @@ Dear Professor [Last Name],
 
 I am Denis Shtepa, a final-year BSc Software Engineering student at Tomsk Polytechnic University (Russia) and Team Lead of our R&D lab. I am writing to ask whether you would consider supervising a master's student for Fall 2027 (CSC/GKS/MOE as applicable).
 
-My diploma project Archon is an AI-native Source of Truth platform that builds a multi-tenant Knowledge Graph (PostgreSQL + Apache AGE, 50 tenants, <15ms traversal at depth 4) from code via a hybrid pipeline (deterministic AST + 2-phase LLM extraction with Proof-of-Truth). It delivers verified context to AI agents via MCP and auto-updates docs via Git Sync. Previously I shipped archmap (automated C4 generation, 4 products / 25 repos, 3 days → 15 min) and OmniSearch (multimodal RAG video search with Whisper/CLIP/Qdrant, deployed at Gazprom Neft).
+My diploma project Archon is an AI-native Source of Truth platform, now in early implementation (architecture complete, base skeleton in progress). It is designed to build a multi-tenant Knowledge Graph (PostgreSQL + Apache AGE) from code via a hybrid pipeline (deterministic AST + 2-phase LLM extraction with Proof-of-Truth), deliver verified context to AI agents via MCP, and auto-update docs via Git Sync. Previously I built archmap (automated C4 generation, 4 products / 25 repos, 3 days → 15 min) and designed OmniSearch (multimodal RAG video search with Whisper/CLIP/Qdrant for industrial safety monitoring).
 
 I have read your work on [Paper 1 (Venue Year), Paper 2] and see a direct alignment with my interest in [e.g., scalable KGs / LLM serving / distributed systems]. [1–2 предложения — конкретная связка твоего проекта с его темой.]
 
@@ -186,14 +186,14 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 - [ ] **До 30.09.2026:** написать в ИК ТПУ (kfu@tpu.ru) — расписание HSK сессий янв 2027, версия HSK (2.0/3.0)
 - [ ] **До 30.09.2026: запросить в ТПУ справку о class rank (место в рейтинге курса)** — для GKS критично: порог «top 20% class», фактический GPA 3.93/5.0 (78.6%) — чуть ниже 80%-хеджа, NIIED сверяет с рангом. Оценки 7-го семестра поднимут до ~4.0 до мартовской подачи. Если ранг хуже 20% — усилить заявки в KAIST (KGPS не зависит от ранга) и CSC.
 - [x] До 15.10.2026: выбрать 4 профессора, прочитать по 2 статьи каждого — **✅ профессора выбраны 10.09.2026** (см. `professors_shortlist_2027.md`): Zheng Haitao (Tsinghua), Xuanzhe Liu (PKU), Lu Chen (SJTU), Shin Yoo (KAIST), Jerry Chou (NTHU) + Hwang Junseok (SNU). Осталось прочитать статьи Lu Chen перед письмом
-- [ ] **До 15.10.2026:** забронировать IELTS в **Чэнду** на **4–5 декабря 2026** (British Council Chengdu, Computer-delivered; бронь на ielts.neea.cn, оплата Alipay/карта друга)
+- [x] **До 15.10.2026:** забронировать IELTS в **Чэнду** на **5 декабря 2026** (Sichuan University IOC, Computer-delivered; бронь на ielts.neea.cn, оплата Alipay/карта друга)
 - [ ] До 01.11.2026: сдать пробный IELTS, закрыть HSK1
 - [ ] **До 10.12.2026: сдать IELTS официально (Чэнду, Academic на компьютере — результат за 3-5 дней)** — нужен в заявки Tsinghua/PKU до mid-Dec
 - [ ] **До 15.12.2026:** подать Tsinghua (CSC First-Round) + PKU + SJTU (1-й раунд CSC, если есть acceptance letter)
 - [ ] **До ~31.12.2026:** подать ZJU (CSC Type B, дедлайн цикла 2026: 31.12)
 - [ ] **~15.12.2026 — 25.02.2027: подать NTHU** (IMBA regular + IMBA-ICDF + IMPISA, fee 2,000 TWD за 2 программы) + **отдельно стипендия ICDF на icdf.org.tw до 15.03.2027**
 - [ ] **До ~25.02.2027:** письмо в ntuspe@ntu.edu.tw — уточнить, требует ли NTU SPE Leadership & Management work experience (запасной тайваньский вариант; «tailored for experienced professionals», но в formal eligibility опыт не указан)
-- [ ] **Январь-март 2027 (если топы не дали pre-admission):** запасные NJU (pre-admission до ~20.01, CSC до ~17.03) и HUST (до ~01.03)
+- [ ] **Январь-март 2027 (если топы не дали pre-admission):** запасные NJU (pre-admission до ~20.01, CSC до ~17.03) и HUST (до 25.02, оплата взноса ~01.03)
 - [ ] **~02-16.12.2026 (опционально): KAIST Fall Early Track** — ранняя подача, решение ~6 марта (по циклу 2026)
 - [ ] **~12-25.02.2027: GKS Embassy Track** (посольство РК, квота ~20 на РФ) ИЛИ **~13.02-18.03.2027: GKS University Track в KAIST** (вместе нельзя — выбрать один трек GKS)
 - [ ] **~03-17.03.2027: KAIST Fall Regular Track** — можно ПАРАЛЛЕЛЬНО с GKS University Track (официальный FAQ: оба пути совместимы, при двойном оффере выбрать один). В заявке выбрать KAIST Scholarship в Financial Resources → авторассмотрение на KGPS (100% tuition + 1M KRW/мес)

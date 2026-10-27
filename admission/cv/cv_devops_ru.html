@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Денис Штэпа — Platform Engineer / DevOps Lead CV</title>
+<style>
+  @page { size: A4; margin: 7mm 11mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a202c;
+    line-height: 1.26;
+    font-size: 8.5pt;
+    margin: 0;
+    padding: 0;
+  }
+  h1 { font-size: 14.5pt; margin: 0 0 2px 0; color: #0d233a; text-transform: uppercase; letter-spacing: 0.5px; }
+  .subtitle { font-size: 9.3pt; font-weight: 600; color: #2b6cb0; margin-bottom: 3px; }
+  .contact { font-size: 8pt; color: #4a5568; margin-bottom: 5px; border-bottom: 1.2px solid #e2e8f0; padding-bottom: 3px; }
+  .contact a { color: #2b6cb0; text-decoration: none; }
+  h2 { font-size: 9.3pt; text-transform: uppercase; color: #0d233a; border-bottom: 1px solid #cbd5e0; margin: 5px 0 3px 0; padding-bottom: 1.5px; letter-spacing: 0.5px; }
+  .summary { font-size: 8.2pt; color: #2d3748; text-align: justify; margin-bottom: 4px; }
+  .job { margin-bottom: 4px; }
+  .job-header { display: flex; justify-content: space-between; font-weight: 700; font-size: 8.8pt; color: #1a202c; }
+  .job-sub { display: flex; justify-content: space-between; font-style: italic; font-size: 8pt; color: #4a5568; margin-bottom: 2px; }
+  .project-title { font-weight: 700; font-size: 8.3pt; color: #2b6cb0; margin-top: 2px; margin-bottom: 1px; }
+  .project-tech { font-size: 7.4pt; color: #718096; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: normal; }
+  ul { margin: 1px 0 3px 13px; padding: 0; }
+  li { margin-bottom: 1px; font-size: 8.1pt; color: #2d3748; }
+  .skills-grid { font-size: 8.1pt; }
+  .skills-row { margin-bottom: 1.5px; }
+  .skills-label { font-weight: 700; color: #1a202c; }
+</style>
+</head>
+<body>
+
+<h1>Денис Штэпа</h1>
+<div class="subtitle">Platform Engineer / DevOps Lead — CI/CD, Kubernetes, Containerization & Infrastructure Architecture</div>
+<div class="contact">
+  Томск, Россия &nbsp;|&nbsp;
+  Тел: +7 (996) 350-77-95 &nbsp;|&nbsp;
+  Email: <a href="mailto:ischademadda@gmail.com">ischademadda@gmail.com</a> &nbsp;|&nbsp;
+  Telegram: <a href="https://t.me/ischademadda">@ischademadda</a> &nbsp;|&nbsp;
+  GitHub: <a href="https://github.com/ischademadda">ischademadda</a> / <a href="https://github.com/teamv39">teamv39</a> &nbsp;|&nbsp;
+  ТПУ, Программная инженерия (2027)
+</div>
+
+<div class="summary">
+  <strong>Platform / DevOps Engineer</strong> с 2+ годами опыта проектирования инфраструктурных решений, автоматизации CI/CD и контейнеризации в R&D и enterprise-проектах. Специализируюсь на <strong>GitLab CI/CD</strong> (переиспользуемые шаблоны, multi-repo пайплайны, Pages, API automation), <strong>GitHub Actions</strong> (matrix builds, bake cache), <strong>Kubernetes</strong> (стратегии деплоя, Ingress, RAM sandboxes), <strong>Docker / Compose</strong>, reverse proxy (Nginx) и оркестрации распределенных систем (Temporal.io). Опыт разработки решений в <strong>Т-Банке</strong> (archmap CI/CD на 4 продукта / 25 репозиториев), проектирования on-premise инфраструктуры (OmniSearch, обмен опытом с <strong>Газпромнефть-Восток</strong>) и хакатона <strong>МТС True Tech Hack</strong>. Стандарты: Git Flow, Conventional Commits, Docs-as-Code / ADR.
+</div>
+
+<h2>Опыт работы и инженерные проекты</h2>
+
+<div class="job">
+  <div class="job-header">
+    <span>team v39 — Applied R&D Lab</span>
+    <span>Томск, Россия</span>
+  </div>
+  <div class="job-sub">
+    <span>DevOps Lead & Platform Engineer (руководство инфраструктурой команды из 4–7 инженеров)</span>
+    <span>Сентябрь 2024 — настоящее время</span>
+  </div>
+
+  <div class="project-title">1. Archon — AI-Native Enterprise Architecture Platform (диплом, в разработке) <span class="project-tech">[Tech Lead & Platform Architect | Kubernetes, Temporal, Docker, GitHub Actions, Nginx Ingress]</span></div>
+  <ul>
+    <li><strong>Инженерные процессы команды (Tech Lead):</strong> Руковожу инженерной командой (4–7 разработчиков); выстраиваю процессы разработки: строгий Git Flow, Conventional Commits, версионирование решений Docs-as-Code (ADR) и GitHub Actions CI/CD (линтеры, автотесты, сборка multi-stage Docker).</li>
+    <li><strong>Проектирование стратегий деплоя (K8s & Ingress):</strong> Спроектировал стратегию физического развертывания и топологию сервисов в Kubernetes (ADR-0007: декомпозиция 17 модулей в 3 полиглотных сервиса и кластер Temporal); заложил модель маршрутизации через Nginx Ingress с TLS-терминацией.</li>
+    <li><strong>Архитектура песочниц (RAM-диски):</strong> Спроектировал стратегию изоляции сред (Sandboxes) для безопасного AST/LLM анализа кода на базе RAM-дисков (<code>emptyDir: { medium: "Memory" }</code> / <code>/dev/shm</code>), чтобы исключить дисковые I/O боттлнеки и гарантировать атомарную очистку при сбоях.</li>
+    <li><strong>Модель оркестрации воркфлоу:</strong> Спроектировал модель отказоустойчивой оркестрации долгих фоновых графовых пайплайнов на базе Temporal.io (retry policies, таймауты, саги компенсации сбоев).</li>
+  </ul>
+
+  <div class="project-title">2. OmniSearch Engine — On-Premise Multimodal Video RAG Platform <span class="project-tech">[Docker, Docker Compose, GitHub Actions, Nginx Gateway, MinIO S3, Qdrant]</span></div>
+  <ul>
+    <li><strong>Мультисервисная контейнеризация:</strong> Разработал и оптимизировал production-ready multi-stage Dockerfile для 4 разнородных сервисов (Kotlin/JVM, Go worker pool, Python ML/PyTorch, React SPA) с минимизацией footprint и изоляцией зависимостей.</li>
+    <li><strong>Окружения & Docker Buildx Bake:</strong> Выстроил три уровня сред (<code>docker-compose.yml</code>, <code>.dev.yml</code>, <code>.prod.yml</code>); настроил сборку через <code>docker buildx bake</code> с кешированием слоев в GitHub Actions Cache, сократив длительность CI-сборок в 2.5 раза.</li>
+    <li><strong>API Gateway & On-Premise стек:</strong> Сконфигурировал Nginx Reverse Proxy (<code>gateway.conf</code>) с rate-limiting, CORS и чанковым стримингом видео; спроектировал автономную on-premise топологию с MinIO S3 и Qdrant (архитектурные консультации и обмен опытом с экспертами <strong>Газпромнефть-Восток</strong>).</li>
+  </ul>
+
+  <div class="project-title">3. Корпоративная Wiki-система — МТС True Tech Hack 2026 <span class="project-tech">[DevOps / Infra | Docker, Docker Compose, GitHub Actions, Nginx, Java Spring, Go, Python, MWS]</span></div>
+  <ul>
+    <li><strong>Мультисервисный деплой за 5 дней:</strong> В сжатые сроки хакатона спроектировал и развернул контейнеризированную среду Docker Compose для связки из 3 микросервисов (Java Spring Boot, Go модуль, Python ML/RAG) и PostgreSQL.</li>
+    <li><strong>CI/CD & Инфраструктура:</strong> Настроил GitHub Actions (автоматическая сборка Docker-образов, линтеры, автотесты при PR), внутреннюю маршрутизацию через Nginx и интеграцию с облачными сервисами MWS (MTS Web Services).</li>
+    <li><strong>Git Flow в команде:</strong> Внедрил командный Git Flow для параллельной работы бэкендеров и ML-инженеров, обеспечив непрерывную интеграцию и успешную защиту проекта.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-header">
+    <span>Т-Банк (T-Bank)</span>
+    <span>Москва, Россия (Удаленно)</span>
+  </div>
+  <div class="job-sub">
+    <span>DevOps / CI/CD Engineer & System Analyst (проект archmap)</span>
+    <span>Апрель 2026 — Август 2026</span>
+  </div>
+  <ul>
+    <li><strong>Архитектура GitLab CI/CD (archmap):</strong> Спроектировал и реализовал с 0 распределенный CI/CD конвейер генерации архитектурных карт LikeC4. Создал централизованный переиспользуемый CI-шаблон <code>build-likec4.gitlab-ci.yml</code>, подключаемый через <code>include:remote</code> во все зависимые микросервисные репозитории компании.</li>
+    <li><strong>Multi-Project Pipelines & GitLab Pages:</strong> Настроил multi-repo оркестрацию: автоматический экспорт артефактов (<code>bundle.json</code>), генерацию статических сайтов документации и деплой на <strong>GitLab Pages</strong> с разграничением прав через GitLab PAT.</li>
+    <li><strong>Автоматизация MR и интеграция с n8n:</strong> Построил триггерную модель CI-джобов (<code>generate-c4</code>, <code>build-likec4</code>, <code>pages</code>) и автоматический merge Merge Request через GitLab API и webhooks в n8n; ускорил цикл обновления документации с 1–3 дней до 15 минут для 4 продуктов (~25 микросервисов).</li>
+    <li><strong>Операционная надежность & Runbooks:</strong> Систематизировал и автоматизировал онкол-ранбуки по 145 боевым инцидентам, сократив время локализации и восстановления систем (MTTR) на 40%.</li>
+  </ul>
+</div>
+
+<h2>Навыки и технологический стек</h2>
+<div class="skills-grid">
+  <div class="skills-row"><span class="skills-label">CI/CD & Автоматизация:</span> GitLab CI/CD (Shared Templates, Multi-project pipelines, Artifacts, Pages, GitLab API, Webhooks), GitHub Actions (Workflows, Matrix builds, Cache, Secrets), n8n, semantic-release.</div>
+  <div class="skills-row"><span class="skills-label">Контейнеризация & Оркестрация:</span> Docker, Docker Compose, Docker Buildx (bake, multi-stage), Kubernetes (стратегии деплоя, Ingress, Pod Topology, Ephemeral Volumes, <code>emptyDir</code> RAM-диски), Temporal.io Cluster.</div>
+  <div class="skills-row"><span class="skills-label">Инфраструктура, Сети & Proxy:</span> Nginx (Reverse Proxy, API Gateway, Load Balancing, Rate-limiting, SSL/TLS), Cloudflare, Linux / Bash, System Design, Git Flow, Conventional Commits, Docs-as-Code (ADR/C4).</div>
+  <div class="skills-row"><span class="skills-label">Хранилища, Базы данных & MQ:</span> PostgreSQL, Redis, MinIO S3, Qdrant Vector DB, Apache AGE, MWS (MTS Web Services).</div>
+  <div class="skills-row"><span class="skills-label">Языки программирования & Утилиты:</span> Bash, Python, Go, Kotlin, Java, YAML, JSON, Git, curl, jq, Make, Tree-sitter &nbsp;|&nbsp; Английский: C1 (IELTS 7.5 prep).</div>
+</div>
+
+</body>
+</html>

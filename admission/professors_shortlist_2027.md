@@ -41,7 +41,7 @@
 - **Email:** xiast@sz.tsinghua.edu.cn
 - **Кабинет:** Room 1609; тел 0755-26036081
 - **Направление:** ML, multimodal RAG / ChatGPT / AIGC / retrieval augmentation, video retrieval, AI security (NeurIPS/ICML/ICLR/CVPR)
-- **Хук для письма:** OmniSearch — multimodal RAG над видеоархивами (Whisper + CLIP + Qdrant), industrial deployment (Gazprom Vostok Neft). Плюс его интерес к AI security ↔ Archon's Proof-of-Truth как защита от LLM-галлюцинаций.
+- **Хук для письма:** OmniSearch — multimodal RAG над видеоархивами (Whisper + CLIP + Qdrant), сценарий промышленной безопасности (обмен опытом с Gazprom Vostok Neft, без внедрения). Плюс его интерес к AI security ↔ Archon's Proof-of-Truth как защита от LLM-галлюцинаций.
 - **Нюанс:** как директор института — занят, но это сигнал "сильная лаборатория". Письмо короче и конкретнее.
 
 ---
@@ -78,7 +78,7 @@
 - **Email:** chenlusz@sjtu.edu.cn (верифицирован: chen.lu/en/)
 - **Направление:** LLMs, agentic systems, AI for Science, RAG
 - **Публикации (проверено):** NeuSym-RAG — hybrid neural-symbolic retrieval (ACL 2025); "Heads up! LLMs, Reducing Tool Hallucination via Reliability Alignment" (ICML 2025); task-specific data selection (NeurIPS 2025)
-- **Хук для письма:** Прямое пересечение: её tool hallucination reduction — это Proof-of-Truth в её постановке; NeuSym-RAG (нейро-символный гибрид) — это Archon (AST-детерминизм + LLM-семантика) в retrieval-форме. OmniSearch — её мультимодальный RAG-кейс.
+- **Хук для письма:** Прямое пересечение: статья про tool hallucination reduction — это Proof-of-Truth в постановке лабы; NeuSym-RAG (нейро-символный гибрид) — это Archon (AST-детерминизм + LLM-семантика) в retrieval-форме. OmniSearch — мультимодальный RAG-кейс для лабы.
 
 ### ⭐ Xiaodong Gu (顾小东) — ПРИОРИТЕТ (равен волне 2)
 - **Title:** Associate Professor, co-director LLMSE Lab
@@ -102,10 +102,10 @@
 
 ### ⭐ Xin Xia (夏鑫) — ПРИОРИТЕТ (волна 2-3)
 - **Title:** Qiushi Distinguished Professor; ex-Huawei Chief Expert (2021-2025); ACM Distinguished Member; ACM SIGSOFT Early Career Award 2022
-- **Email:** xxia@zju.edu.cn (верифицирован: xin-xia.github.io)
+- **Email:** xin.xia@zju.edu.cn (верифицирован: xin-xia.github.io)
 - **Направление:** AI4SE / SE4AI, program comprehension, empirical SE
 - **Публикации:** 360+ публикаций, 160+ CCF-A
-- **Хук для письма:** Идеальный мачч под Platform PM трек: его Huawei-бэкграунд = индустриальный масштаб; Archon с его NFR-метриками (<15ms, 50 tenants) — production-система, а не игрушка. Он набирает команду после перехода из Huawei — момент удачный.
+- **Хук для письма:** Идеальный мачч под Platform PM трек: его Huawei-бэкграунд = индустриальный масштаб; Archon — серьёзно спроектированная система (7 ADR, NFR), а его empirical-подход — способ честно её измерить. Он набирает команду после перехода из Huawei — момент удачный.
 
 ### ⭐ Wen Zhang (张文) — ПРИОРИТЕТ (волна 2-3)
 - **Title:** Assistant Professor, ZJUKG Lab
@@ -209,7 +209,7 @@
 - **Title:** Professor, CSIE (Office 517)
 - **Email:** ccf@csie.ntu.edu.tw
 - **Направление:** Distributed ML systems, multimedia systems, performance evaluation
-- **Хук для письма:** OmniSearch — распределённый ML-пайплайн (Kotlin Control / Go+Python Compute), performance evaluation — мой NFR-подход (<15ms traversal, 90% token saving).
+- **Хук для письма:** OmniSearch — распределённый ML-пайплайн (Kotlin Control / Go+Python Compute), performance evaluation — мой NFR-подход (целевые <100ms traversal, экономия токенов — предстоит измерить).
 
 ### Jonathan Lee (李哲? no — Lee)
 - **Title:** Professor, CSIE (Software Engineering Lab; Office 513)
@@ -234,7 +234,7 @@
 | 9 | Chin-Yu Huang | NTHU 🇹🇼 | IMPISA/IMS (MOE/ICDF) | cyhuang@cs.nthu.edu.tw | SE reliability ↔ Archon |
 | 10 | **Lu Chen** | SJTU 🇨🇳 | CS (CSC B) — acceptance letter нужен до подачи | chenlusz@sjtu.edu.cn | Tool hallucination + hybrid RAG ↔ Proof-of-Truth |
 | 11 | **Xiaodong Gu** | SJTU 🇨🇳 | CS, LLMSE (CSC B) — acceptance letter до подачи | xiaodong.gu@sjtu.edu.cn | Repo-level context ↔ Archon extraction |
-| 12 | **Xin Xia** | ZJU 🇨🇳 | CS (CSC B) — Provisional Acceptance = priority | xxia@zju.edu.cn | AI4SE + Huawei ex-Chief Expert ↔ Platform PM |
+| 12 | **Xin Xia** | ZJU 🇨🇳 | CS (CSC B) — Provisional Acceptance = priority | xin.xia@zju.edu.cn | AI4SE + Huawei ex-Chief Expert ↔ Platform PM |
 | 13 | **Wen Zhang** | ZJU 🇨🇳 | CS, ZJUKG (CSC B) | zhang.wen@zju.edu.cn | Multi-modal KG ↔ OmniSearch + Archon |
 | 14 | Yun-Nung Chen | NTU CSIE 🇹🇼 | ~~GMBA~~ (низкий приоритет после отпадения GMBA) | yvchen@csie.ntu.edu.tw | RAG + tool-calling ↔ Archon |
 | 15 | Wen-Huang Cheng | NTU CSIE 🇹🇼 | ~~GMBA Tech&Innov~~ (низкий приоритет) | wenhuang@csie.ntu.edu.tw | Multimodal AI + digital transformation |
@@ -255,7 +255,7 @@
 
 - [ ] Прочитать 1-2 статьи профессора (из колонки «Публикации») — указать их в письме по названию
 - [ ] GitHub Archon: README на английском + бейджи (stars, CI) — проверить перед письмом
-- [ ] CV 1 страница EN: GPA 3.93/5.0, Archon/OmniSearch/archmap с метриками (<15ms, 50 tenants, 90% tokens, 4 products/25 repos)
+- [ ] CV 1 страница EN: GPA 3.93/5.0, Archon/OmniSearch/archmap — только реальные метрики (archmap: 4 products/25 repos); Archon — честный статус
 - [ ] Тема письма: `Prospective Master's Student Fall 2027 — AI-native Architecture (Archon: KG + RAG + MCP)` — или проще: `Prospective CSC applicant Fall 2027 — question about your lab`
 - [ ] Не просить "funding" в первом письме — просить о разговоре/ответе; funding = CSC/GKS/MOE в заявке
 - [ ] Отправлять вт: ср–чт утром по местному времени вуза

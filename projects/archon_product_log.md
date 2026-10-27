@@ -83,15 +83,15 @@ Role: Authored ADR, drove decision
 Decision: Выбрали PostgreSQL 16 + Apache AGE для Knowledge Graph, изоляция Graph-per-Tenant (каждый тенант = отдельная схема pg_namespace).
 Why: Нужна сильная изоляция + транзакционность + один стек для реляционных данных и графа. Neo4j — отдельный кластер, дороже.
 Alternatives: Neo4j (отклонено — второй стек, сложнее мультитенантность), shared graph с tenant_id (отклонено — риск утечки).
-Impact: 50 изолированных графов без деградации, обход на глубину 4 — <15ms (NFR <100ms). Закрыты OQ-2 и OQ-5.
+Impact: Единый стек для реляционных данных и графа, сильная изоляция тенантов. NFR: обход на глубину 4 <100ms (стресс-тест запланирован). Закрыты OQ-2 и OQ-5.
 Artifact: ADR-0003
-Role: Led R&D and stress-testing, authored ADR
+Role: Led DB research, authored ADR
 
 ### ADR-0004 — Модульная декомпозиция (17 модулей)
 Decision: Декомпозиция на 17 ортогональных модулей в 5 блоках, принцип "модуль != сервис".
 Why: Ортогональность и независимые жизненные циклы, разделить контуры извлечения (extract/interpret/reconcile).
 Alternatives: Сразу резать на микросервисы (отклонено — преждевременно, усложняет MVP).
-Impact: Четкие границы владения, параллельная разработка 4 инженеров без конфликтов.
+Impact: Четкие границы владения, чтобы 4 инженера могли разрабатывать параллельно.
 Artifact: ADR-0004
 Role: Designed decomposition, authored ADR
 
@@ -99,7 +99,7 @@ Role: Designed decomposition, authored ADR
 Decision: Упаковали 17 модулей в 3 сервиса (archon-core Kotlin, archon-ai Python, archon-portal React) + Temporal Polyglot Workflows + клон в RAM-диск (/dev/shm, rm -rf после AST).
 Why: Баланс между операционкой и независимостью, полиглот ретраи, Privacy-by-default (код не сохраняется на диске).
 Alternatives: 17 микросервисов (отклонено — оверхед), 1 монолит (отклонено — не масштабируется по командам).
-Impact: Деплой проще на 70%, ретрай LLM без перепарсинга, соответствие enterprise privacy. Закрыт OQ-8.
+Impact: 3 сервиса вместо 17 в эксплуатации, ретрай LLM без перепарсинга, соответствие enterprise privacy. Закрыт OQ-8.
 Artifact: ADR-0007
 Role: Designed topology, authored ADR
 
@@ -113,7 +113,7 @@ Role: Founder & Product Owner (solo)
 ### Product — OmniSearch Engine (Team)
 Decision: Разделил систему на Control Plane (Kotlin Ktor) и Compute Plane (Go Video Engine + Python ML Engine), определил OpenAPI контракты и асинхронный пайплайн.
 Why: Разделить I/O и compute, изолировать GPU-зависимый ML.
-Impact: MVP с семантическим поиском (Whisper + CLIP + Qdrant), adopted by Gazprom Vostok Neft for HSE automation.
+Impact: Архитектура семантического поиска (Whisper + CLIP + Qdrant) под сценарий HSE-мониторинга; обмен опытом со специалистами Gazprom Vostok Neft (без внедрения).
 Artifact: omnisearch.md, docker-compose, OpenAPI
 Role: System Designer, Product Owner
 
@@ -121,15 +121,15 @@ Role: System Designer, Product Owner
 
 ## Продуктовые метрики Archon (оцифровка для README и эссе)
 
-Добавь в `archon_shtepa.md` / `archon_product-overview.md` в раздел MVP:
+Добавь в `archon_shtepa.md` / `archon_product-overview.md` в раздел MVP. ⚠️ Для Archon пока ничего не измерено — колонка «Цель» это NFR и гипотезы, а не результаты.
 
-| Метрика | До / Без Archon | С Archon | Как измерено |
+| Метрика | До / Без Archon | Цель для Archon | Как будем измерять |
 |---|---|---|---|
 | Time-to-C4 (C1-C3) | 1-3 дня ручной работы | 10-15 мин (archmap), цель <30 мин для Archon | Замер на 4 продуктах |
-| Spec Drift detection | Ручной аудит, недели | <15ms на глубину 4 (Impact Analysis) | Стресс-тест AGE, 50 тенантов |
+| Spec Drift detection | Ручной аудит, недели | <100ms на глубину 4 (Impact Analysis, NFR) | Стресс-тест AGE (запланирован) |
 | Onboarding в архитектуру | Недели + отвлечение сеньоров | Часы, самостоятельно по порталу/MCP | Опрос лидов |
-| Token economy (LLM) | 100% файлов в контекст | -90% токенов (File Selector читает только дерево путей) | Замер пайплайна |
-| Trust (галлюцинации) | LLM выдумывает связи | 0 связей без evidence_files (Proof-of-Truth) | Extraction Contract v1.0 |
+| Token economy (LLM) | 100% файлов в контекст | Существенно меньше токенов (File Selector читает только дерево путей) | Замер пайплайна после реализации |
+| Trust (галлюцинации) | LLM выдумывает связи | 0 связей без evidence_files (Proof-of-Truth) | Валидатор по Extraction Contract v1.0 + precision/recall на эталонных репо |
 | Adoption | 0 | Цель MVP: 4 продукта / 25 репо (наследие archmap) | GitHub |
 
 ---
@@ -143,5 +143,5 @@ Role: System Designer, Product Owner
 - **A**ction: Что ты сделал (facilitated, authored ADR, выбрал альтернативу)
 - **R**esult: Цифра (время, метрика, закрытый блокер)
 
-Пример: "В Archon у нас был спор — 17 микросервисов или 3 сервиса. Я предложил упаковать в 3 сервиса под Temporal (ADR-0007), потому что 17 — оверхед для MVP, а монолит — не масштабируется по командам. Решение сократило сложность деплоя на 70% и дало полиглот ретраи."
+Пример: "В Archon доменная модель содержала 17 логических модулей. Чтобы избежать инфраструктурного оверхеда на 17 отдельных контейнеров для команды из 4 человек, в рамках ADR-0007 мы упаковали их в 3 физических сервиса под управлением Temporal Polyglot Workflows. Решение упростило эксплуатацию и сохранило чистые границы сервисов."
 

@@ -6,7 +6,7 @@
 > 1. 🇨🇳 **Приоритет №1:** Китай **CSC Type B** (Tsinghua SIGS Data Science & IT, PKU SEI, SJTU, ZJU) — дедлайны: **декабрь 2026**
 > 2. 🇹🇼 **Приоритет №2:** Тайвань **ICDF / MOE** (NTHU IMBA/IMPISA) — дедлайны: **февраль 2027**
 > 
-> 🎯 **Ближайший майлстоун:** **IELTS on Computer в Чэнду (Китай)** — 4–5 декабря 2026 (цель: **7.5+**).
+> 🎯 **Ближайший майлстоун:** **IELTS on Computer в Чэнду (Китай)** — 5 декабря 2026, суббота (цель: **7.5+**).
 
 ---
 
@@ -14,7 +14,7 @@
 
 | Задача | Где лежит / Что открыть | Детали |
 | :--- | :--- | :--- |
-| **1. IELTS Academic в Чэнду** | ✅ **Забронировано и оплачено** | 5 декабря 2026 (Sichuan University IOC, e-TRF: 6–10 дек). |
+| **1. IELTS Academic в Чэнду** | ✅ **Забронировано и оплачено** | 5 декабря 2026 (Sichuan University IOC, результат 6–10 дек, e-TRF на следующий день после публикации, до ~11 дек). |
 | **2. Экспортировать CV в PDF** | [`admission/cv/cv_en.html`](file:///Users/shteppinson/mylife/maga/admission/cv/cv_en.html) | Открыть в браузере → `Cmd+P` → Save as PDF (`Denis_Shtepa_CV.pdf`). |
 | **3. Отправить Письмо №1 профессору** | [`admission/october_action_plan_2026.md`](file:///Users/shteppinson/mylife/maga/admission/october_action_plan_2026.md) | Prof. Zheng Haitao (Tsinghua SIGS). Отправка утром (04:00–06:00 МСК+4). |
 | **4. Заказать выписку в деканате ТПУ** | Деканат ИШИТР ТПУ | Выписка за 3 курса с расчетом GPA и печатью. |
@@ -26,6 +26,7 @@
 ```text
 maga/
 ├── README.md                      # Этот файл (навигатор и карта репозитория)
+├── MASTER_SUMMARY.md              # 📋 Единый саммари-файл (профиль, вузы, проекты, IELTS)
 ├── AGENTS.md                      # Инструкции и правила для ИИ-агентов
 │
 ├── 📂 admission/                  # ВСЁ ПО ПОСТУПЛЕНИЮ И ГРАНТАМ
@@ -77,7 +78,7 @@ maga/
     ├── archon_product_log.md      # 📝 Еженедельный лог PM-решений (STAR)
     ├── archon_shtepa.md           # Дипломный проект Archon (полный техпроект)
     ├── archon_product-overview.md # Архитектурный обзор Archon
-    ├── omnisearch.md              # RAG-система видеопоиска (Газпром Восток Нефть)
+    ├── omnisearch.md              # RAG-система видеопоиска (R&D, обмен опытом с Газпром Восток Нефть)
     ├── archmap.md                 # Генератор C4-архитектуры (Т-Банк)
     └── crdt_shtepa.md             # Исследование алгоритмов CRDT
 ```
