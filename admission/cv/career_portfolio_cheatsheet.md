@@ -17,7 +17,7 @@
 
 | Проект / Место | Роль | Метрика / Результат | Ключевой стек |
 |---|---|---|---|
-| **archmap**<br>*(Т-Банк)* | Founder & Product Owner | • Доставка C4-диаграмм: **с 1–3 дней до 15 минут** (−98% времени).<br>• Онбординг инженеров в архитектуру: **с недель до часов**.<br>• Масштабирование: **4 продукта / ~25 микросервисных репозиториев**.<br>• Оркестрация: n8n + бот в один клик. | Python, LikeC4, AST Tree-sitter, LLM (File Selector → Extractor), n8n, CI/CD |
+| **archmap**<br>*(Т-Банк)* | Founder & Product Owner | • Генерация C4-документации: **~15 минут на репозиторий**.<br>• Масштабирование: одобрено руководством, **~40 микросервисных репозиториев** (цифры как в CV).<br>• Оркестрация: n8n + бот в один клик. | Python, LikeC4, AST Tree-sitter, LLM (File Selector → Extractor), n8n, CI/CD |
 | **Archon**<br>*(Диплом, R&D Lab — в разработке: архитектура + базовый каркас)* | Lead System Architect & Product Owner | • Архитектурная декомпозиция: **17 логических модулей → 3 полиглотных сервиса** (Temporal Workflows, ADR-0007).<br>• Проектирование: **7 ADR зафиксировали ключевые архитектурные развилки до реализации ядра**.<br>• Knowledge Graph: изоляция Graph-per-Tenant на PostgreSQL + Apache AGE, NFR на обход графа: глубина 4 за **<100 мс** (предстоит проверить бенчмарком).<br>• **Правило Proof-of-Truth**: каждая связь графа обязана иметь подтверждение в коде, иначе отсекается.<br>• Процессы: **37 задач в GitHub Projects**, Docs-as-Code (AGENTS.md). | Kotlin, Python, Temporal, PostgreSQL 16 + Apache AGE, Qdrant, LikeC4, MCP |
 | **OmniSearch Engine**<br>*(R&D, Газпромнефть-Восток)* | Product Owner & System Architect | • Разделение Control Plane (Kotlin Ktor) и Compute Plane (Go / Python).<br>• Спроектирован конечный автомат (FSM) статусов видео и on-premise стек (MinIO S3 + Qdrant).<br>• Проектирование под сценарии промышленного видеомониторинга; обмен опытом со специалистами Газпромнефть-Восток. | Kotlin Ktor, Go (GoCV/FFmpeg), Python (Whisper/CLIP), Qdrant, MinIO S3 |
 | **Кобрендинг Т-ОРД**<br>*(Т-Банк)* | System Analyst (Junior+) | • Интеграция **3 внешних систем с разными REST-контрактами**.<br>• Спецификации согласованы с учетом обратной совместимости API: **фича в проде без интеграционных блокеров**. | REST API, OpenAPI, PostgreSQL, JSON API, Reverse Compatibility |
@@ -45,14 +45,14 @@
 * **Situation:** Руководитель направления в Т-Банке упомянул проблему: архитектурные схемы в Confluence устаревают быстрее, чем их успевают обновлять, а разработчики тратят до 3 дней на ручную отрисовку C4.
 * **Task:** Превратить абстрактную боль в работающий автоматизированный продукт.
 * **Action:** Я не стал ждать ТЗ сверху. Самостоятельно инициировал продукт archmap: написал RFC, спроектировал двухфазный пайплайн (File Selector → Extractor) на Python, интегрировал генерацию LikeC4 в CI/CD и вывел запуск через Telegram-бота в один клик.
-* **Result:** Время генерации архитектурной схемы упало с 1–3 дней до 15 минут. Руководство одобрило масштабирование решения на 4 продукта (~25 микросервисных репозиториев).
+* **Result:** Генерация C4-документации занимает ~15 минут на репозиторий. Руководство одобрило масштабирование, к моему уходу покрыто ~40 репозиториев.
 
 ---
 
 ## 3. 🎯 Формулировки позиционирования под гранты
 
-### Для Китая (CSC Type B — Tsinghua SIGS, PKU, SJTU):
-> *"Research-oriented System Designer & Team Lead focused on AI-native Developer Platforms. Background in deterministic-LLM hybrid pipelines (Tree-sitter + Knowledge Graphs on Apache AGE) and Context Engineering via Model Context Protocol (MCP). Built archmap at T-Bank (adopted across 25 microservice repos); now designing Archon, a verifiable code-to-architecture Knowledge Graph platform (diploma project)."*
+### Для CS / SE программ (🇹🇼 NTU, NYCU, NTHU, NCKU; 🇨🇳 вуз CSC, SJTU через SGS):
+> *"Research-oriented System Designer & Team Lead focused on AI-native Developer Platforms. Background in deterministic-LLM hybrid pipelines (Tree-sitter + Knowledge Graphs on Apache AGE) and Context Engineering via Model Context Protocol (MCP). Built archmap at T-Bank (scaled to about 40 microservice repositories); now designing Archon, a verifiable code-to-architecture Knowledge Graph platform (diploma project)."*
 
-### Для Тайваня (ICDF / MOE — NTHU IMBA / IMPISA):
-> *"Technical Product Manager & R&D Team Lead (team v39) with a proven track record of shipping developer tools from 0 to 1. Proven impact in reducing architectural delivery cycle times by 98% (archmap), leading cross-functional engineering teams, and aligning business requirements with scalable distributed architectures."*
+### Для менеджерского трека (запасной: 🇹🇼 NTHU IMBA):
+> *"Technical Product Manager & R&D Team Lead (team v39) with a proven track record of shipping developer tools from 0 to 1. Built archmap solo and scaled it to about 40 repositories at T-Bank, leading cross-functional engineering teams, and aligning business requirements with scalable distributed architectures."*

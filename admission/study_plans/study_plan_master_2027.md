@@ -1,6 +1,7 @@
-# CSC Study Plan — Master in Software Engineering / Data Science (800-1000 слов)
+# Study Plan — мастер-шаблон (800–1000 слов)
 
-> **Назначение:** Подача на CSC Type B (Tsinghua, PKU, SJTU, ZJU) на осень 2027. Пишется на английском, 800+ слов.
+> **Назначение:** база для всех заявок осени 2027. Тайвань: NTU CSIE, NYCU, NTHU, NCKU (обычно 500–800 слов, сократить). Китай: вуз единственной заявки CSC и SJTU через SGS. Пишется на английском.
+> **Обновлено 09.11.2026:** убраны непроверенные утверждения (C1, «projected 4.0+», старые цифры archmap, «HSK 3 in progress»).
 > **Тема:** From Code-to-Architecture to AI-native Platform Management
 > **Программа:** MSc Software Engineering (AI & Service Engineering) / Data Science & Information Technology
 > **Автор:** Denis Shtepa, BSc Software Engineering, TPU, 2027
@@ -17,7 +18,7 @@ This problem led me to initiate and lead two platform projects that define my ac
 
 ### 2. Academic Background
 
-I am a 4th-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU), Institute of Information Technology. My curriculum has focused on System Design, Distributed Systems, Databases, and Business Analysis. My GPA is 3.93/5.0 (projected 4.0+ by graduation) and my English level is C1 (IELTS target 7.5).
+I am a 4th-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU), Institute of Information Technology. My curriculum has focused on System Design, Distributed Systems, Databases, and Business Analysis. My GPA is 3.93/5.0, and I am taking IELTS Academic on 5 December 2026.
 
 My academic strength is not purely theoretical but project-driven system analysis. I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after 4 months for shipping production features. My diploma project, **Archon**, is a team R&D effort where I act as Lead System Architect and Product Visionary, responsible for product scope, modular decomposition (17 modules), and 7 Architecture Decision Records (ADRs) that unblocked development before coding began.
 
@@ -37,7 +38,7 @@ A microservice RAG system for semantic search over video archives (Whisper + CLI
 My role as System Designer: separated Control Plane (Kotlin/Ktor) and Compute Plane (Go/FFmpeg, Python/FastAPI), designed OpenAPI 3.0 contracts, async state machine (UPLOADED -> PROCESSING_MEDIA -> PROCESSING_ML -> READY), and vector storage in Qdrant. The system was designed for HSE compliance monitoring; we exchanged expertise on the use case with Gazprom Vostok Neft specialists.
 
 **archmap — Automated C4 Documentation Generator (Solo, T-Bank, 2026)**
-From a single request "build an architecture map", I initiated, designed (RFC, pipeline, contracts), and prototyped a service that generates LikeC4 diagrams from code via LLM (File Selector + Extractor) and deterministic generators (json_to_likec4.py), orchestrated in n8n with a TiMe-bot for one-click launch. Result: C4 delivery from 1-3 days to 10-15 minutes, onboarding from weeks to hours. Scaled to 4 products (~25 repos), approved by management. This is my key Product Management case.
+From a single request "build an architecture map", I initiated, designed (RFC, pipeline, contracts), and prototyped a service that generates LikeC4 diagrams from code via LLM (File Selector + Extractor) and deterministic generators (json_to_likec4.py), orchestrated in n8n with a TiMe-bot for one-click launch. Result: about 15 minutes of generation per repository; approved by management and scaled to about 40 repositories. This is my key Product Management case.
 
 **CRDT-Engine — Distributed Real-Time Collaborative Engine (Solo Pet Project)**
 A Go-based collaborative editing engine with Strong Eventual Consistency. Implemented Fugue Sequence CRDT, LWW-Registers, G-Set/2P-Set, Vector Clocks, and a Hub/Broker-Worker architecture with Redis Pub/Sub and worker pools sharded by document_id.
@@ -58,7 +59,7 @@ Specifically, at [Tsinghua/PKU], I am interested in Professor [Name, e.g., Prof.
 
 **Year 1 — Foundation & Deepening:**
 - Complete core courses: Advanced Software Architecture, Distributed Systems, Machine Learning Systems, Knowledge Graph Engineering, Database Systems (Graph DB).
-- Improve Chinese to HSK 5 (currently HSK 3 in progress) and achieve academic fluency.
+- Continue Chinese from beginner level (currently preparing for HSK 3) toward HSK 4–5.
 - Join the lab of Prof. [Name] as a research assistant. Evaluate Archon's Graph-per-Tenant model at 500+ tenants and publish a comparative study of Apache AGE vs. NebulaGraph/TuGraph for enterprise multi-tenancy.
 - Publish one conference paper on "Proof-of-Truth for LLM-based Architecture Extraction".
 
@@ -75,13 +76,13 @@ I am ready to contribute my R&D team leadership experience (2 years, 7 people ma
 
 ---
 
-### Checklist для подачи CSC
+### Checklist для подачи
 
-- [ ] Адаптируй под каждый вуз: замени [Tsinghua/PKU] и профессора, добавь 1-2 его статьи
-- [ ] Уложись в 800-1000 слов, без воды, только с реальными метриками (archmap: 4 products/25 repos). Для Archon — честный статус (архитектура + каркас) и что именно планируешь измерить
+- [ ] Адаптируй под каждый вуз: раздел 4 (почему этот вуз и профессор, 1–2 его статьи) и раздел 5 (лаборатория). Для Тайваня убрать «Why China»
+- [ ] Уложись в 800-1000 слов, без воды, только с цифрами из CV (archmap: ~40 репо, ~15 мин/репо). Для Archon — честный статус (архитектура + каркас) и что именно планируешь измерить
 - [ ] Приложи как `Study Plan` в PDF на бланке (подпись, дата)
 - [ ] Два рекомендательных письма: одно от научного руководителя ТПУ, второе — от лида из Т-Банка (акцент на archmap)
-- [ ] Нотариальный перевод диплома + транскрипт с GPA
+- [ ] Транскрипт EN с GPA (Тайвань: перевод не нужен, если ТПУ выдаёт английский)
 
 ### Источники для поиска профессора
 

@@ -5,7 +5,8 @@
 > **Версия A:** Tsinghua SIGS — Data Science and Information Technology, Prof. Zheng Haitao (первая программа в заявке Tsinghua; вторая указывается по правилам их портала).
 > **Версия B:** PKU — MSc Software Engineering (AI & Service Engineering), Prof. Xuanzhe Liu.
 > **Публикации профессоров проверены** (см. `professors_shortlist_2027.md`); если в письме профессор укажет другую свою свежую работу — подставь её вместо указанной.
-> **Мастер-шаблон** (нейтральный, для SJTU/ZJU и других): `csc_study_plan_2027.md`.
+> **Мастер-шаблон** (для Тайваня, SJTU/SGS и других): `study_plan_master_2027.md`.
+> **Обновлено 09.11.2026:** CSC — только 1 вуз; эти версии нужны, если заявка CSC уйдёт в Tsinghua или PKU. Убраны «C1», «projected 4.0+», «50-tenant deployment», старые цифры archmap.
 
 ---
 
@@ -23,7 +24,7 @@ This problem led me to initiate and lead two platform projects that define my ac
 
 ### 2. Academic Background
 
-I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU). My curriculum centers on System Design, Distributed Systems, Databases, and Business Analysis; my GPA is 3.93/5.0 (projected 4.0+ by graduation) and my English is C1. My academic strength is project-driven system analysis: I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after four months for shipping production features. My diploma project, Archon, is a team R&D effort in which I serve as Lead System Architect and Product Owner — responsible for product vision, the decomposition of 17 modules into 3 deployable services, and seven Architecture Decision Records that closed all blockers before coding began.
+I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU). My curriculum centers on System Design, Distributed Systems, Databases, and Business Analysis; my GPA is 3.93/5.0, and I am taking IELTS Academic on 5 December 2026. My academic strength is project-driven system analysis: I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after four months for shipping production features. My diploma project, Archon, is a team R&D effort in which I serve as Lead System Architect and Product Owner — responsible for product vision, the decomposition of 17 modules into 3 deployable services, and seven Architecture Decision Records that closed all blockers before coding began.
 
 ### 3. Research and Project Experience
 
@@ -31,7 +32,7 @@ I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic Univ
 
 **OmniSearch Engine — on-premise multimodal RAG for video archives (team of 7).** Semantic search over video archives (Whisper + CLIP + Qdrant) designed for HSE compliance monitoring, with Control Plane (Kotlin/Ktor) separated from Compute Plane (Go/FFmpeg, Python), OpenAPI 3.0 contracts, and an asynchronous state machine. We exchanged expertise on the use case with Gazprom Vostok Neft specialists.
 
-**archmap — automated C4 documentation generator (solo, T-Bank).** An LLM + deterministic pipeline generating LikeC4 diagrams from code; cut C4 delivery from 1–3 days to 10–15 minutes and was adopted for 4 products (~25 repositories).
+**archmap — automated C4 documentation generator (solo, T-Bank).** An LLM + deterministic pipeline generating LikeC4 diagrams from code; it generated C4 documentation in about 15 minutes per repository and was scaled to about 40 repositories.
 
 **CRDT-Engine — distributed collaborative editing (solo).** Fugue sequence CRDT, LWW-registers, vector clocks, and a Redis Pub/Sub broker-worker architecture.
 
@@ -41,7 +42,7 @@ I choose Tsinghua SIGS for three reasons. First, platform scale: the questions m
 
 ### 5. Study Plan During the Master's (2 Years)
 
-**Year 1 — Foundations and validation at scale.** I will join the Knowledge Engineering group as a research assistant from the first semester. My first research goal is to evaluate Archon's Graph-per-Tenant model at hundreds of tenants and benchmark Apache AGE against native graph databases (NebulaGraph, TuGraph) for enterprise multi-tenancy — publishing the comparison as a first paper. In parallel, I will formalize the Proof-of-Truth rule into a measurable hallucination metric: precision and recall of extracted dependencies evaluated on 20+ large open-source codebases (CNCF landscape). Coursework: Knowledge Graph Engineering, Machine Learning Systems, Distributed Systems, Database Systems. I will also continue Chinese (HSK 3 in progress, targeting HSK 4–5 for academic fluency).
+**Year 1 — Foundations and validation at scale.** I will join the Knowledge Engineering group as a research assistant from the first semester. My first research goal is to evaluate Archon's Graph-per-Tenant model at hundreds of tenants and benchmark Apache AGE against native graph databases (NebulaGraph, TuGraph) for enterprise multi-tenancy — publishing the comparison as a first paper. In parallel, I will formalize the Proof-of-Truth rule into a measurable hallucination metric: precision and recall of extracted dependencies evaluated on 20+ large open-source codebases (CNCF landscape). Coursework: Knowledge Graph Engineering, Machine Learning Systems, Distributed Systems, Database Systems. I will also continue Chinese (beginner level, preparing for HSK 3, targeting HSK 4–5).
 
 **Year 2 — Thesis and industrial validation.** Thesis topic: "Executable Architecture-as-Context: A Multi-tenant Knowledge Graph Platform for Zero-Drift Documentation and AI Agent Grounding" — evaluating the Archon approach on real enterprise codebases at scale. I plan a platform-team internship in Shenzhen (Tencent, Huawei, or ByteDance) to validate the approach in industry, and to open-source the core extraction framework.
 
@@ -68,7 +69,7 @@ My answer was to build the missing layer: archmap, an automated documentation ge
 
 ### 2. Academic Background
 
-I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU). My curriculum centers on System Design, Distributed Systems, Databases, and Business Analysis; my GPA is 3.93/5.0 (projected 4.0+ by graduation) and my English is C1. I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after four months for shipping production features. My diploma project, Archon, is a team R&D effort in which I serve as Lead System Architect and Product Owner — responsible for product vision, the decomposition of 17 modules into 3 deployable services orchestrated by Temporal workflows, and seven Architecture Decision Records that closed all blockers before coding began.
+I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic University (TPU). My curriculum centers on System Design, Distributed Systems, Databases, and Business Analysis; my GPA is 3.93/5.0, and I am taking IELTS Academic on 5 December 2026. I was selected for the T-Bank Intensive in System Analysis (2026) and promoted to Junior+ after four months for shipping production features. My diploma project, Archon, is a team R&D effort in which I serve as Lead System Architect and Product Owner — responsible for product vision, the decomposition of 17 modules into 3 deployable services orchestrated by Temporal workflows, and seven Architecture Decision Records that closed all blockers before coding began.
 
 ### 3. Research and Project Experience
 
@@ -76,7 +77,7 @@ I am a fourth-year BSc student in Software Engineering at Tomsk Polytechnic Univ
 
 **OmniSearch Engine — multimodal RAG for video archives (team of 7).** Whisper + CLIP + Qdrant over a Control/Compute plane split (Kotlin/Ktor vs Go+Python), OpenAPI 3.0 contracts, asynchronous processing state machine; designed for HSE compliance monitoring, with expertise exchange with Gazprom Vostok Neft specialists.
 
-**archmap — automated C4 generator (solo, T-Bank).** LLM + deterministic pipeline; C4 delivery from 1–3 days to 10–15 minutes; adopted for 4 products (~25 repositories).
+**archmap — automated C4 generator (solo, T-Bank).** LLM + deterministic pipeline; about 15 minutes per repository; scaled to about 40 repositories.
 
 **CRDT-Engine — distributed collaborative editing (solo).** Fugue CRDT, vector clocks, Redis Pub/Sub broker-worker architecture.
 
@@ -86,7 +87,7 @@ My platform sits directly on top of the research agenda of Prof. Xuanzhe Liu's g
 
 ### 5. Study Plan During the Master's (2 Years)
 
-**Year 1 — Characterization and prototyping.** As a research assistant in the group from the first semester, I will first characterize context-access patterns of MCP agents over combined graph and vector retrieval, using traces from Archon's 50-tenant deployment: query mix, reuse, and locality of agent context requests. On that basis I will prototype a context-serving tier — RAGCache-style caching applied to graph-traversal results — and measure latency, token cost, and cache hit rates against the naive pipeline. In parallel, I will replace my ad-hoc extraction budgeting with a formal BAMAS-style budget allocator and quantify the difference. Target output: one workshop or conference paper (ASE/ICSE or a systems venue). Coursework: Advanced Software Architecture, LLM Systems, Distributed Systems. Chinese: continuing from HSK 3 toward HSK 4–5.
+**Year 1 — Characterization and prototyping.** As a research assistant in the group from the first semester, I will first characterize context-access patterns of MCP agents over combined graph and vector retrieval, using traces collected from Archon once its MCP layer runs on real repositories: query mix, reuse, and locality of agent context requests. On that basis I will prototype a context-serving tier — RAGCache-style caching applied to graph-traversal results — and measure latency, token cost, and cache hit rates against the naive pipeline. In parallel, I will replace my ad-hoc extraction budgeting with a formal BAMAS-style budget allocator and quantify the difference. Target output: one workshop or conference paper (ASE/ICSE or a systems venue). Coursework: Advanced Software Architecture, LLM Systems, Distributed Systems. Chinese: from beginner level toward HSK 4–5.
 
 **Year 2 — Thesis and industrial validation.** Thesis: "Executable Architecture-as-Context: Co-designing Agent-Context Platforms with LLM Serving for Zero-Drift Documentation" — evaluated on 20+ open-source enterprise codebases and real agent traces. I plan an internship on a platform/serving team (ByteDance, Tencent, or Alibaba Cloud) and to open-source the extraction and context-serving framework.
 
@@ -105,4 +106,4 @@ After graduation I aim to work as a Platform / Technical Product Manager buildin
 - [ ] Версия A: убедиться, что программа в заявке Tsinghua = Data Science and Information Technology (первый выбор)
 - [ ] Если Zheng Haitao / Xuanzhe Liu ответят на письмо и упомянут другую свою работу — заменить упомянутую публикацию на неё (только 1 замена, не ломать структуру)
 - [ ] Дата + подпись в конце PDF (требование CSC-заявки Tsinghua)
-- [ ] Для SJTU/ZJU — адаптировать мастер-шаблон `csc_study_plan_2027.md` по той же схеме (раздел 4 = профессор + его работы; раздел 5 = лаборатория) — сделать, когда выберешься с волной писем
+- [ ] Для SJTU/ZJU — адаптировать мастер-шаблон `study_plan_master_2027.md` по той же схеме (раздел 4 = профессор + его работы; раздел 5 = лаборатория) — сделать, когда выберешься с волной писем

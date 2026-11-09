@@ -1,21 +1,18 @@
-# Драфты писем профессорам — Fall 2027 (волны 1-2 + SJTU/ZJU)
+# Письма профессорам 2027
 
-> **Дата:** 11.09.2026
-> **Автор:** Денис Штэпа (отправка с ischademadda@gmail.com)
-> **Правила отправки:** по одному письму на вуз — КРОМЕ SJTU/ZJU: там два письма одновременно оправданы (acceptance letter нужен до подачи ~15.12, время дорого; пиши сначала Lu Chen + Gu параллельно — разные лаборатории X-LANCE/LLMSE). Будни, утро по местному времени вуза. Приложения: CV (1 стр., PDF) + ссылка на GitHub Archon.
-> **Данные профессоров и публикации:** `professors_shortlist_2027.md`.
-> **⚠️ 24.10.2026:** формулировки приведены к реальному статусу. Archon — спроектирована архитектура (7 ADR) и начат базовый каркас, метрик пока нет; OmniSearch — R&D-проект с обменом опытом с Газпром Восток Нефть, без внедрения. Не возвращать «<15ms», «90% tokens», «deployed», «production».
-> **27.10.2026 — статус и план отправки.** Отправлено: только Zheng Haitao (20.10, нужно исправляющее письмо). Фокус на инженерных треках (Денис: «проектировать и отлаживать»), поэтому TEMEP (Hwang) не отправляем: менеджмент-трек + цифры в письме не подтверждены. Исправлено в драфтах: цифры archmap (~40 репо, ~15 мин, «3 дня» убрано), «Dear Professor Chen» для Lu Chen, GitHub в подписи → `github.com/ischademadda` (репо Archon приватный).
-> - **Ср 28.10 (утро по Пекину, отложенная отправка):** Gu + Chen (SJTU, acceptance letter до ~15.12), Liu (PKU).
-> - **Чт 29.10:** Xia + Zhang (ZJU), Chou (NTHU).
-> - **Позже:** Yoo (KAIST, GKS), волна 3. Archonity в письма пока не добавлять (итоги TechArena предварительные, вне топ-10).
+> **Обновлено:** 09.11.2026. Статус писем ведётся в `README.md`, раздел 4. Профессора и публикации: `professors_shortlist_2027.md`.
+> **Правило честности:** Archon: спроектирована архитектура (7 ADR), начат базовый каркас, метрик нет. OmniSearch: R&D-прототип, не задеплоен. archmap: ~40 репозиториев, ~15 минут на репозиторий (как в CV). Не писать «deployed», «production», «<15ms», «90% tokens», «1–3 дня».
+> **Отправка:** Gmail ischademadda@gmail.com, plain text, CV в PDF меньше 1 МБ. Будни, утро по местному времени вуза (Пекин 08:00–10:00 = Томск 04:00–06:00, ставить отложенную отправку).
 > **Тема письма (общая):** `Prospective Master's Student Fall 2027 — AI-native Architecture (Archon: KG + LLM + MCP)`
 
 ---
 
-## Волна 1 (СЕЙЧАС — критично для CSC Type B, дедлайн mid-Dec)
+## 1. Отправленные письма (тексты нужны для follow-up)
 
-### 1.1 Zheng Haitao — Tsinghua SIGS (zheng.haitao@sz.tsinghua.edu.cn)
+> Zheng: 20.10 (исправление 27.10). Liu, Lu Chen: 28.10 ✅. Gu: 28.10, Xin Xia, Wen Zhang, Jerry Chou: 29.10 — по плану, отправку подтвердить.
+> ⚠️ Письмо Zheng ушло со старыми цифрами archmap («4 products, ~25 repos»). В follow-up и следующих письмах использовать цифры из CV.
+
+### 1.1 Zheng Haitao — 🇨🇳 Tsinghua SIGS (zheng.haitao@sz.tsinghua.edu.cn)
 
 **Subject:** Prospective Master's Student Fall 2027 — Knowledge Graph Grounding for AI Agents (Archon)
 
@@ -41,7 +38,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-### 1.2 Xuanzhe Liu — PKU SEI (liuxuanzhe@pku.edu.cn)
+### 1.2 Xuanzhe Liu — 🇨🇳 PKU SEI (liuxuanzhe@pku.edu.cn)
 
 **Subject:** Prospective Master's Student Fall 2027 — MCP Agent Context on Top of LLM Serving (Archon)
 
@@ -67,33 +64,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-## Волна 2 (конец сентября)
-
-### 2.1 Shin Yoo — KAIST SoC (shin.yoo@kaist.ac.kr)
-
-**Subject:** Prospective MS Student Fall 2027 — Verifiable LLM Extraction for SE (Proof-of-Truth)
-
-```
-Dear Professor Yoo,
-
-I am Denis Shtepa, a final-year BSc Software Engineering student at Tomsk Polytechnic University (Russia), planning to apply to KAIST's School of Computing for Fall 2027 (via GKS and the regular track). May I ask whether you would consider supervising a master's student?
-
-Your COSMosFL work on LLM fault localization (ICSE 2025) and autonomous testing agents speaks directly to a problem I have been designing around: making LLM output about code verifiable. In my diploma project Archon — an AI-native Source of Truth platform — the Knowledge Graph (PostgreSQL + Apache AGE) is to be populated by hybrid extraction (deterministic AST + two-phase LLM), and every edge must carry evidence_files with file paths and line numbers or it is rejected ("Proof-of-Truth"). By design, unproven dependencies cannot enter the graph — but how well this catches real hallucinations, and at what cost, is still untested; we have finished the architecture and are only starting implementation. I see your research agenda — LLMs for SE with verifiable grounding — as the scientific frame my engineering rule deserves: I want to evaluate it as a testing/verification mechanism, not just a data-quality heuristic.
-
-I also lead a 4-7 person lab (projects: archmap, an LLM C4-generator I built that was adopted at T-Bank for ~25 repos, and OmniSearch, a multimodal RAG system we designed), so RA contributions in your lab would come with real delivery experience.
-
-Would my profile fit your lab's Fall 2027 plans? My CV is attached; I am happy to share the Archon architecture documentation on request.
-
-Best regards,
-Denis Shtepa
-Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
-```
-
-*Хук: Proof-of-Truth как верификация LLM-вывода — его повестка. ⚠️ KAIST-гайд рекомендует найти advisor до подачи — это письмо важнее остальных из волны 2.*
-
----
-
-### 2.2 Jerry Chou — NTHU, директор IMPISA/IMS (jchou@cs.nthu.edu.tw)
+### 1.3 Jerry Chou — 🇹🇼 NTHU, директор IMPISA/IMS (jchou@cs.nthu.edu.tw)
 
 **Subject:** Prospective MS Student Fall 2027 — IMPISA (multi-tenant platform, resource management)
 
@@ -117,35 +88,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-### 2.3 Hwang Junseok — SNU TEMEP (junhwang@snu.ac.kr)
-
-**Subject:** Prospective MS Student Fall 2027 — AI Tool Diffusion in Practice (TEMEP)
-
-```
-Dear Professor Hwang,
-
-I am Denis Shtepa, a final-year BSc Software Engineering student at Tomsk Polytechnic University (Russia), applying to TEMEP for Fall 2027 (GKS scholarship). Your research on AI technology diffusion and knowledge management caught my attention because I have lived a small, measurable case of it.
-
-At T-Bank (Russia's leading tech bank), AI coding agents had already reached every developer — but the organization's knowledge layer had not: architectural docs went stale in two weeks, and agents hallucinated APIs from them. I built archmap, an LLM-based C4 diagram generator, as a bottom-up answer: from a single lead's request it scaled to 4 products / ~25 repositories, cutting diagram delivery from 1-3 days to 15 minutes and onboarding from weeks to hours. Adoption was organic — engineers pulled it in, management approved it after the fact. That is technology diffusion in miniature: the gap between tool availability (100%) and organizational absorption (~10% when I started), and the product intervention that closed it.
-
-Your work gives this practitioner's story a scientific frame — diffusion of AI tools, knowledge management, and the economics of adoption — which is exactly the training I lack and seek at TEMEP. My ambition is Platform / Technology Product Management, and my evidence so far is hands-on: archmap itself, and leading a 4-7 person R&D lab that designed OmniSearch (a multimodal RAG system) and is now building Archon (an AI-native knowledge-graph platform).
-
-Would my profile fit your lab for Fall 2027? My CV is attached.
-
-Best regards,
-Denis Shtepa
-Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
-```
-
-*Хук: его research = научная рамка для кейса archmap. Тон: меньше кода, больше product/diffusion/economics — под TEMEP.*
-
----
-
-## Волна 2 (продолжение) — SJTU/ZJU (⚠️ добавлено 11.09.2026)
-
-> **SJTU: acceptance letter от супервизора нужен ДО подачи (~15.12).** Поэтому в этих письмах аск сильнее — прямо спрашивать готовность супервизировать и просить acceptance letter. **ZJU:** Form for Provisional Acceptance даёт priority — аск мягче. Писать одновременно с KAIST/NTHU-письмами волны 2.
-
-### 2.4 Lu Chen — SJTU, X-LANCE Lab (chenlusz@sjtu.edu.cn)
+### 1.4 Lu Chen — 🇨🇳 SJTU, X-LANCE Lab (chenlusz@sjtu.edu.cn)
 
 **Subject:** Prospective Master's Student Fall 2027 — Reducing Tool Hallucination via Grounded KG (Archon)
 
@@ -169,7 +112,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-### 2.5 Xiaodong Gu — SJTU, LLMSE Lab (xiaodong.gu@sjtu.edu.cn)
+### 1.5 Xiaodong Gu — 🇨🇳 SJTU, LLMSE Lab (xiaodong.gu@sjtu.edu.cn)
 
 **Subject:** Prospective Master's Student Fall 2027 — Repository-Level Verified Context (Archon)
 
@@ -193,7 +136,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-### 2.6 Xin Xia — ZJU, AI4SE (xin.xia@zju.edu.cn)
+### 1.6 Xin Xia — 🇨🇳 ZJU, AI4SE (xin.xia@zju.edu.cn)
 
 **Subject:** Prospective MS Student Fall 2027 — AI4SE: Verifiable LLM Extraction for Architecture (Archon)
 
@@ -213,11 +156,11 @@ Denis Shtepa
 Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 ```
 
-*Хук: его empirical AI4SE = способ честно измерить Proof-of-Truth + его Huawei-масштаб; твой трек PM ↔ его индустриальность. Аск: Provisional Acceptance (мягче SJTU — priority, не обязательство).*
+*Хук: его empirical AI4SE = способ честно измерить Proof-of-Truth + его Huawei-масштаб; твой трек PM ↔ его индустриальность. Аск: Provisional Acceptance (мягче 🇨🇳 SJTU — priority, не обязательство).*
 
 ---
 
-### 2.7 Wen Zhang — ZJU, ZJUKG Lab (zhang.wen@zju.edu.cn)
+### 1.7 Wen Zhang — 🇨🇳 ZJU, ZJUKG Lab (zhang.wen@zju.edu.cn)
 
 **Subject:** Prospective MS Student Fall 2027 — Multi-Tenant & Multimodal Knowledge Graphs (Archon/OmniSearch)
 
@@ -243,7 +186,7 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-### Запасные письма SJTU/ZJU (если молчат 10-14 дней)
+## 2. Запасные письма 🇨🇳 SJTU/ZJU (если молчат 10–14 дней)
 
 **Beijun Shen (bjshen@sjtu.edu.cn):** тот же аск acceptance letter, хук — code LLM interpretation + repository mining ↔ AST/Tree-sitter extraction; сослаться на его FSE/ICSE 2026 работы. Отправлять только если Lu Chen И Gu молчат.
 
@@ -251,27 +194,63 @@ Email: ischademadda@gmail.com | GitHub: github.com/ischademadda | CV attached
 
 ---
 
-## Чек-лист перед отправкой (каждое письмо)
+## 3. Чек-лист перед отправкой
 
 - [ ] Подставить ссылку на актуальный CV (Google Drive/Dropbox, PDF) — проверить, что открывается из инкогнито
 - [ ] GitHub Archon: README на английском с честным статусом (что спроектировано / что реализовано), свежий коммит — профессор может открыть в тот же день
-- [ ] Отправка: вт-чт, утро по местному времени вуза (Tsinghua/PKU — утро по Пекину = 4-6 утра Томска → отправить вечером накануне с отложенной отправкой)
+- [ ] Отправка: вт-чт, утро по местному времени вуза (🇨🇳 Tsinghua/PKU — утро по Пекину = 4-6 утра Томска → отправить вечером накануне с отложенной отправкой)
 - [ ] Отправлять с ischademadda@gmail.com; подпись с полным именем + GitHub
 - [ ] Если ответа нет 10-14 дней — одно вежливое follow-up (2-3 предложения), потом переход ко второму профессору вуза
-- [ ] Ответы сортировать: (а) «пишите официально / supporting letter» → просить короткое письмо к заявке CSC/GKS; (б) «нет мест» → вежливо спросить, кого из коллег порекомендует; (в) молчание после follow-up → волна 3
+- [ ] Ответы сортировать: (а) «пишите официально / supporting letter» → просить короткое письмо к заявке CSC; (б) «нет мест» → вежливо спросить, кого из коллег порекомендует; (в) молчание после follow-up → волна 3
 
-## Что ответить профессору, если он заинтересуется (заготовки)
+## 4. Follow-up (через 10–14 дней тишины, один раз)
+
+```
+Subject: Re: <тема первого письма>
+
+Dear Professor <Last Name>,
+
+I am following up on my email from <date> about joining your group as a master's student in Fall 2027. I understand you receive many messages, so a one-line reply on whether my profile could fit your lab would help me plan my <CSC / university> application, which closes in <month>.
+
+Since my first email, <одна реальная новость: IELTS-результат / новый этап Archon / прочитанная статья профессора и один вопрос по ней>.
+
+Thank you for your time.
+
+Best regards,
+Denis Shtepa
+```
+
+* Отвечать в тот же тред (Re:), не новым письмом. 80–120 слов.
+* Новость только реальная. Если её нет, абзац убрать.
+* После follow-up тишина 7–10 дней → писать следующему профессору этого вуза (раздел 2).
+
+---
+
+## 5. Рекомендатели: скрипты просьбы
+
+**Научному руководителю ТПУ:**
+> «Здравствуйте, [Имя Отчество]! Я подаюсь в магистратуру на осень 2027: Тайвань (🇹🇼 NTU, 🇹🇼 NYCU, 🇹🇼 NTHU) и Китай (стипендия CSC). Первые сроки в декабре–январе. Мне нужно академическое рекомендательное письмо на английском с акцентом на дипломный проект Archon и исследовательскую работу. Драфт я подготовлю сам, от вас нужно проверить и подписать. Порталы присылают ссылку рекомендателю на почту, это займёт 10–15 минут. Будете готовы меня порекомендовать?»
+
+**Лиду / ментору в Т-Банке:**
+> «Привет, [Имя]! Подаюсь в магистратуру в Азию (Тайвань / Китай) на осень 2027. Нужна рекомендация с места работы. Акцент на системный анализ и archmap: собрал сам, дошёл примерно до 40 репозиториев. Текст на английском напишу сам, от тебя согласование и подпись. Первые сроки в декабре. Сможешь?»
+
+* Отправить обоим CV + 5–7 тезисов «что можно про меня сказать» с фактами (без «top X%»).
+* Уточнить у 🇹🇼 NTU/NYCU: письмо загружает рекомендатель через ссылку или ты сам. От этого зависит, нужна ли подпись на бланке.
+
+---
+
+## 6. Заготовки ответов, если профессор заинтересовался
 
 **«Can you send me your transcript / grades?»**
-→ Транскрипт на английском (заказать в ТПУ заранее, см. docs_legalization) + честно: GPA 3.93/5.0, сильнейшие — системные/проектные курсы; оценки осеннего семестра 2026 войдут в транскрипт до подач GKS/KAIST и поднимут кумулятив до ~4.0.
+→ Транскрипт на английском (заказать в ТПУ заранее, см. docs_legalization) + честно: GPA 3.93/5.0, сильнейшие — системные/проектные курсы; оценки осеннего семестра 2026 войдут в транскрипт к январю.
 
 **«Do you have funding needs?»**
-→ «I am applying through CSC Type B / GKS / TaiwanICDF, which covers tuition and stipend — I do not require lab funding, only your support in the university-track process.» (НЕ просить funding в первом письме.)
+→ «I am applying through the CSC Type B / Taiwan MOE / university scholarship, which covers tuition and stipend — I do not require lab funding, only your support in the university-track process.» (НЕ просить funding в первом письме.)
 
 **«Send me a research proposal.»**
-→ Одностраничная выжимка из csc_study_plan_2027.md секция 5 (Year 1/Year 2) под его лабораторию.
+→ Одностраничная выжимка из `study_plans/study_plan_master_2027.md`, секция 5 (Year 1/Year 2) под его лабораторию.
 
-**«I agree to supervise / here is the acceptance letter» (SJTU) или «заполни Form for Provisional Acceptance» (ZJU)**
-→ Для SJTU: попросить письмо в PDF на бланке с фразой "I agree to supervise Mr. Denis Shtepa as a master's student in Fall 2027" + имя/подпись. Для ZJU: форма заполняется на портале ZJU — спросить у профессора, нужна ли от тебя какая-то часть.
+**«I agree to supervise / here is the acceptance letter» (🇨🇳 SJTU) или «заполни Form for Provisional Acceptance» (🇨🇳 ZJU)**
+→ Для 🇨🇳 SJTU: попросить письмо в PDF на бланке с фразой "I agree to supervise Mr. Denis Shtepa as a master's student in Fall 2027" + имя/подпись. Для 🇨🇳 ZJU: форма заполняется на портале 🇨🇳 ZJU — спросить у профессора, нужна ли от тебя какая-то часть.
 
-**Волна 3 (октябрь):** Xia Shutao (Tsinghua), Ge Li (PKU), In-Young Ko (KAIST), Yun-Nung Chen (низкий приоритет), Beijun Shen (если Gu молчит), Huajun Chen (если Xia/Zhang молчат).
+**Следующие письма:** Yun-Nung Chen (🇹🇼 NTU CSIE, теперь приоритет), профессора 🇹🇼 NYCU / 🇹🇼 NCKU (подобрать), Xia Shutao (🇨🇳 Tsinghua), Ge Li (🇨🇳 PKU), Beijun Shen (если Gu молчит), Huajun Chen (если Xia/Zhang молчат).

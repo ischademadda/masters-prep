@@ -120,7 +120,7 @@ HSK — это 4 навыка: иероглифы, лексика, грамма�
 
 ## 5. Как использовать в заявке CSC
 
-- В Study Plan (csc_study_plan_2027.md) добавь фразу: `Chinese: HSK3 passed (Mar 2027), HSK4 in progress, target HSK5 during first year in China.`
+- В Study Plan (study_plans/study_plan_master_2027.md) добавь фразу: `Chinese: HSK3 passed (Mar 2027), HSK4 in progress, target HSK5 during first year in China.`
 - В CV: `Chinese: HSK3 (2027), HSK4 in progress`
 - На интервью CSC (если будет) — скажи 2-3 фразы на китайском про свой проект: `我的专业是软件工程。我的毕业设计是Archon，一个AI知识图谱平台。` — это вау-эффект.
 

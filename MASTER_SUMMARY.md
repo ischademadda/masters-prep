@@ -2,9 +2,9 @@
 
 Кандидат: Денис Штэпа  
 Образование: Томский политехнический университет (ТПУ), ИШИТР, 4 курс, «Программная инженерия» (выпуск — июль 2027)  
-GPA: 3.93 / 5.0 (Top 10% курса, эквивалент ~3.5 / 4.0 по шкале США)  
+GPA: 3.93 / 5.0 (class rank не получен, «top X%» не писать)  
 Профиль: Platform / Technical Product Manager, System Designer, R&D Team Lead (team v39)  
-Цель: Поступление в магистратуру на Fall 2027 с полным грантом (100% покрытие обучения, ежемесячная стипендия, проживание)  
+Цель: магистратура на осень 2027 с грантом. Тайвань чуть выше Китая, главное поступить. Трекер: admission/README.md  
 Ближайший майлстоун: IELTS Academic on Computer в Чэнду (Китай) — 5 декабря 2026 (цель: 7.5+)
 
 ---
@@ -19,10 +19,10 @@ GPA: 3.93 / 5.0 (Top 10% курса, эквивалент ~3.5 / 4.0 по шка
   - Инженерное лидерство: 2+ года руководства R&D лабораторией team v39 (4–7 инженеров), запуск archmap с 0 до 1 в Т-Банке, корпоративный опыт в Т-Банке и Газпром нефти.
 
 Формулировки позиционирования:
-* Для Китая (CSC Type B — Tsinghua SIGS, PKU, SJTU):  
-  "Research-oriented System Designer & Team Lead focused on AI-native Developer Platforms. Background in deterministic-LLM hybrid pipelines (Tree-sitter + Knowledge Graphs on Apache AGE) and Context Engineering via Model Context Protocol (MCP). Built archmap at T-Bank (adopted across 25 microservice repos); now designing Archon, a verifiable code-to-architecture Knowledge Graph platform (diploma project)."
-* Для Тайваня (ICDF / MOE — NTHU IMBA / IMPISA):  
-  "Technical Product Manager & R&D Team Lead with a proven track record of shipping developer tools from 0 to 1. Proven impact in reducing architectural delivery cycle times by 98% (archmap), leading cross-functional engineering teams, and aligning business requirements with scalable distributed architectures."
+* Для CS / SE программ (🇹🇼 NTU, 🇹🇼 NYCU, 🇹🇼 NTHU, 🇹🇼 NCKU; 🇨🇳 вуз CSC, 🇨🇳 SJTU через SGS):  
+  "Research-oriented System Designer & Team Lead focused on AI-native Developer Platforms. Background in deterministic-LLM hybrid pipelines (Tree-sitter + Knowledge Graphs on Apache AGE) and Context Engineering via Model Context Protocol (MCP). Built archmap at T-Bank (scaled to about 40 microservice repositories); now designing Archon, a verifiable code-to-architecture Knowledge Graph platform (diploma project)."
+* Для менеджерского трека (запасной: 🇹🇼 NTHU IMBA):  
+  "Technical Product Manager & R&D Team Lead with a proven track record of shipping developer tools from 0 to 1. Built archmap solo and scaled it to about 40 repositories at T-Bank, leading cross-functional engineering teams, and aligning business requirements with scalable distributed architectures."
 
 ---
 
@@ -34,7 +34,7 @@ GPA: 3.93 / 5.0 (Top 10% курса, эквивалент ~3.5 / 4.0 по шка
 |---|---|---|---|
 | Archon<br>(Диплом, R&D Lab team v39 — в разработке) | Lead System Architect & Product Owner | Спроектирована архитектура, начат базовый каркас. Декомпозиция 17 модулей в 3 полиглотных сервиса (Temporal, ADR-0007), 7 ADR до реализации ядра. Multi-tenant Knowledge Graph (Graph-per-Tenant, NFR: обход на глубину 4 <100 мс). Правило Proof-of-Truth: отсев связей без подтверждения в коде. | Kotlin, Python, Temporal, PostgreSQL 16 + Apache AGE, Qdrant, LikeC4, Model Context Protocol (MCP) |
 | OmniSearch Engine<br>(R&D, обмен опытом с Газпром Восток Нефть) | Product Owner & System Architect | Мультимодальный RAG-видеопоиск под сценарий контроля охраны труда; обмен опытом со специалистами Газпром Восток Нефть. Разделены Control Plane (Ktor) и Compute Plane (Go / Python). Спроектирован FSM обработки медиафайлов. | Kotlin Ktor, Go (GoCV/FFmpeg), Python (Whisper/CLIP), Qdrant, MinIO S3, Nginx |
-| archmap<br>(Т-Банк) | Founder & Product Owner | Автогенератор C4-архитектуры из кода. Доставка диаграмм сокращена с 1–3 дней до 15 минут (-98%). Масштабирован на 4 продукта (~25 микросервисных репозиториев). Онбординг инженеров сокращен с недель до часов. | Python, LikeC4, AST Tree-sitter, LLM (File Selector + Extractor), n8n, CI/CD, Telegram Bot |
+| archmap<br>(Т-Банк) | Founder & Product Owner | Автогенератор C4-архитектуры из кода. ~15 минут на репозиторий; одобрен руководством и масштабирован на ~40 микросервисных репозиториев. | Python, LikeC4, AST Tree-sitter, LLM (File Selector + Extractor), n8n, CI/CD, Telegram Bot |
 | Кобрендинг Т-ОРД<br>(Т-Банк) | System Analyst (Junior+) | Проектирование сквозных интеграций между 3 внешними системами. Спецификации согласованы с учетом обратной совместимости API: релиз в проде без интеграционных блокеров. | REST API, OpenAPI, PostgreSQL, JSON API, Reverse Compatibility |
 | Операционные процессы<br>(Т-Банк) | System Analyst | Анализ ~145 инцидентов дежурств, рефакторинг ранбуков: среднее время реагирования (MTTR) снижено на 40%. Шаблон сервисной документации для 2 команд сократил онбординг инженеров с 3 дней до 1 дня. | Confluence, Jira, Runbooks, Service Blueprints |
 | CRDT-Engine<br>(Solo Open-Source) | System Designer | Распределенный collaborative real-time движок со Strong Eventual Consistency. Алгоритм Fugue (Sequence CRDT) + LWW-Register + векторные часы. Горизонтальное масштабирование через Redis Pub/Sub и шардирование по document_id. | Go, WebSockets, Redis Pub/Sub, Clean Architecture, Docker |
@@ -91,16 +91,15 @@ OmniSearch Engine — on-premise мультимодальная RAG-систем
 archmap — внутренняя платформа автоматической генерации архитектурных C4-диаграмм (LikeC4) напрямую из репозиториев сервисов. Инициирована Денисом как продуктовая инициатива "снизу" для решения проблемы устаревающей документации.
 
 #### Архитектура и результаты
-* Проблема: ручная подготовка C4-диаграммы продукта занимала 1–3 дня работы архитектора, схемы в Confluence устаревали через 2 недели, а онбординг инженеров в архитектуру занимал до месяца.
+* Проблема: C4-диаграммы готовились вручную, схемы в Confluence устаревали через 2 недели, а онбординг инженеров в архитектуру занимал до месяца.
 * Реализация конвейера:
   - Интеграция с Git-репозиториями через webhook-события или Telegram-бота в один клик.
   - Анализ AST-дерева через Tree-sitter с выделением точек входа, контроллеров и межсервисных вызовов.
   - Двухфазная LLM-экстракция (File Selector отбирает только ключевые файлы конфигураций и клиентов, Extractor формирует модель LikeC4).
   - Сборка интерактивных диаграмм C1, C2, C3 и диаграмм динамических бизнес-потоков (flows) с публикацией в веб-интерфейс.
 * Результат:
-  - Время подготовки актуальной архитектурной модели сократилось с 1–3 дней до 15 минут (-98%).
-  - Онбординг новых разработчиков сокращен с недель до нескольких часов.
-  - Продукт защищен перед менеджментом и масштабирован на 4 продукта направления (~25 микросервисных репозиториев).
+  - Генерация C4-документации: ~15 минут на репозиторий.
+  - Продукт защищён перед менеджментом и масштабирован на ~40 микросервисных репозиториев (цифры как в CV).
 
 ---
 
@@ -145,29 +144,16 @@ CRDT-Engine — масштабируемый распределенный дви
 * Situation: Руководитель направления в Т-Банке отметил, что архитектурные схемы в Confluence безнадежно отстают от продакшна, а инженеры тратят дни на ручную отрисовку.
 * Task: Превратить абстрактную проблему в измеримый рабочий инструмент.
 * Action: Самостоятельно инициировал создание archmap: написал RFC, спроектировал двухфазный пайплайн на Python и LikeC4, интегрировал генерацию в CI/CD и подключил запуск через Telegram-бота в один клик.
-* Result: Время генерации архитектурной документации упало с 1–3 дней до 15 минут. Решение утверждено менеджментом и внедрено на 4 продукта (~25 микросервисов).
+* Result: генерация C4-документации ~15 минут на репозиторий. Решение утверждено менеджментом, к уходу покрыто ~40 репозиториев.
 
 ---
 
-## 3. Академический трек: Целевые университеты и профессора
+## 3. Академический трек
 
-Приоритеты: Китай CSC Type B (Приоритет 1) -> Тайвань ICDF/MOE (Приоритет 2) -> Корея KAIST/GKS (Приоритет 3).
-
-| Страна / Грант | Вуз и программа | Профессор / Тема лаборатории | Дедлайн Fall 2027 | Специфика подачи |
-|---|---|---|---|---|
-| Китай CSC Type B (Приоритет 1) | Tsinghua University (SIGS, Shenzhen)<br>Master in Data Science & IT | Zheng Haitao (Assoc. Prof.)<br>Knowledge Engineering, KG completion, RLHF-V | Mid-Dec 2026 (First-Round CSC) | Agency: 10003. Письмо волны 1 готово. Главный целевой вуз. |
-| Китай CSC Type B (Приоритет 1) | Peking University (PKU SEI)<br>MSc Software Engineering | Xuanzhe Liu (Prof.)<br>LLM serving, RAGCache, BAMAS | 25 дек 2026 (окно 26.10–25.12, офиц.) | Agency: 10001. Письмо волны 1 готово. Второй топ Китая. |
-| Китай CSC Type B (Слот 3) | Shanghai Jiao Tong Univ (SJTU)<br>School of CS (CS and Technology) | Lu Chen (Prof., X-LANCE)<br>Dialogue / KG. Резерв: Xiaodong Gu | ~15 дек 2026 (1-й раунд CSC) | Agency: 10248. Обязательно Acceptance Letter от профессора до подачи. |
-| Китай CSC Type B (Слот 3, альт) | Zhejiang University (ZJU)<br>Software Engineering (English-taught) | College of Computer Science | ~31 дек 2026 | Agency: 10335. Подается, если Lu Chen из SJTU не ответит. |
-| Тайвань ICDF / MOE (Приоритет 2) | National Tsing Hua Univ (NTHU)<br>IMBA (Tech Management) + IMPISA (SE) | Jerry Chou (Distr. Prof., дир. IMS)<br>Cloud & Distributed Systems | NTHU: 15.12.26–25.02.27<br>ICDF: 01.12.26–15.03.27<br>MOE: 01.02–31.03.27 | Подача сразу на 2 программы (fee 2,000 TWD). Высокая квота и лояльность к РФ. |
-| Корея KAIST / GKS (Приоритет 3) | KAIST School of Computing / Graduate School of AI | Shin Yoo (Prof.)<br>LLM for SE, testing agents | GKS Univ: ~13.02–18.03.27<br>Regular: ~03–17.03.27 | Параллельная подача: KAIST Regular + GKS University Track разрешены вузом. |
-| Корея GKS Univ Track | Seoul National Univ (SNU)<br>MS in TEMEP (Tech Management) | Hwang Junseok (Prof.)<br>AI Technology Diffusion | Февраль — Март 2027 | Чистый продуктово-управленческий трек. |
-| Китай Safety Net | Nanjing University (NJU) / HUST<br>Computer Technology / CS | School of CS | Январь — Март 2027 | Запасные слоты Китая на случай отсутствия ответов от первой тройки. |
-
-Исключенные программы:
-* NTU Global MBA (Тайвань): отсеян, так как строго требует 2 года подтвержденного full-time опыта работы.
-* NTHU Institute of Service Science (Тайвань): закрыта международная магистратура (только PhD).
-* Гонконг и Сингапур: стипендии выделяются исключительно под PhD, магистратуры платные ($20k–$40k в год).
+Всё по вузам, срокам, деньгам и статусам писем: **admission/README.md** (единственный источник). Коротко на 09.11.2026:
+* 🇹🇼 **Тайвань (чуть выше):** 🇹🇼 NTU CSIE (до 19.01), 🇹🇼 NYCU CS (20.12–15.03), 🇹🇼 NTHU CS / IMPISA, 🇹🇼 NCKU CSIE. Деньги: стипендии вузов или MOE.
+* 🇨🇳 **Китай:** только **1 заявка CSC Type B** (вуз выбирается последним, по ответу профессора). 🇨🇳 SJTU через Shanghai Government Scholarship. Type A через Минобрнауки недоступен.
+* Корея и Европа не рассматриваются.
 
 ---
 
@@ -175,15 +161,11 @@ CRDT-Engine — масштабируемый распределенный дви
 
 ### IELTS Academic on Computer (Чэнду, Китай)
 * Дата: 5 декабря 2026 (утренняя сессия).
-* Локация: Sichuan University IOC Test Centre, Чэнду.
+* Локация: 🇨🇳 Sichuan University IOC Test Centre, Чэнду.
 * Статус регистрации: забронировано и оплачено (1,990 RMB).
-* Результат: 6–10 декабря 2026 (через 1–5 дней после экзамена), e-TRF скачивается со следующего дня после публикации, то есть до ~11 декабря (успевает под дедлайн первого раунда Tsinghua SIGS mid-Dec).
+* Результат: 6–10 декабря 2026, e-TRF до ~11 декабря.
 * Целевой балл: 7.5+ Overall (Listening 8.0+, Reading 8.0+, Writing 7.0+, Speaking 7.5+).
-* Текущий срез навыков:
-  - Speaking: Band 7.0 (откалиброван, внедрено правило 3 выстрелов для Part 3, устранены русизмы).
-  - Writing: Band 6.5 (в проработке согласование подлежащего/сказуемого, шаблон Overview Task 1, академические маркеры).
-  - Reading: 3/5 (60%) на контрольных срезах (отработка ловушек FALSE vs NOT GIVEN и заголовков Headings).
-  - Listening: в очереди (отработка секций 3–4, числовых ловушек и спеллинга).
+* Текущий срез навыков: ielts/diagnostic_tracker.md (единственный источник).
 
 ### Китайский язык (HSK)
 * HSK3: сессия в январе/марте 2027 в Институте Конфуция при ТПУ (Томск), целевой балл 240+/300.
@@ -191,55 +173,6 @@ CRDT-Engine — масштабируемый распределенный дви
 
 ---
 
-## 5. Пакет документов и статус подготовки
+## 5. Документы и график
 
-* Загранпаспорт: действителен до 2029+ года.
-* Research CV: admission/cv/Denis_Shtepa_CV.pdf (1 страница, оцифрованные метрики, STAR-результаты).
-* Академическая выписка: заказ выписки с оценками за 3 курса, расчетом GPA и гербовой печатью в деканате ИШИТР ТПУ.
-* Рекомендательные письма (2 штуки):
-  1. Академическая рекомендация от научного руководителя ТПУ (акцент на диплом Archon и R&D способности).
-  2. Индустриальная рекомендация от лида/ментора Т-Банка (акцент на product ownership archmap, самостоятельность, Junior+).
-* Study Plan / Research Proposal:
-  - Мастер-шаблон CSC (800+ слов): admission/study_plans/csc_study_plan_2027.md.
-  - Персонализированный план для Tsinghua SIGS: admission/study_plans/csc_study_plan_2027_personalized.md.
-  - Мотивационные эссе для Кореи: admission/study_plans/gks_essays_2027.md.
-* Легализация документов (для Тайваня NTHU / MOE / ICDF):
-  - Цепочка: Нотариальный перевод диплома/справки -> Минюст -> Консульский департамент МИД РФ -> Отдел TECO в Москве.
-  - Запуск процесса: декабрь 2026 — январь 2027 (дедлайн NTHU ~25.02.2027).
-
----
-
-## 6. График подачи и ключевые майлстоуны
-
-* Октябрь 2026:
-  - Отправка первой волны писем профессорам Китая с интервалом в 2 дня: Zheng Haitao (Tsinghua SIGS) -> Xuanzhe Liu (PKU) -> Lu Chen (SJTU). Отправка утром (04:00–06:00 МСК+4).
-  - Заказ официальной выписки с GPA и печатью в деканате ТПУ.
-  - Предупреждение рекомендателей (ТПУ и Т-Банк).
-* Ноябрь 2026:
-  - Интенсивная подготовка к IELTS (Writing & Reading дриллы).
-  - Получение предварительных ответов профессоров (Acceptance Letters).
-  - Подготовка переводов справок.
-* Начало декабря 2026:
-  - 5 декабря 2026: сдача IELTS on Computer в Чэнду.
-  - 6–11 декабря 2026: результат и e-TRF (цель 7.5+).
-* Середина декабря 2026:
-  - Дедлайн подачи заявки в Tsinghua SIGS (First-Round CSC Type B).
-  - Подача заявок в SJTU CS и PKU SEI.
-  - Открытие окна подачи в NTHU (Тайвань).
-* Январь 2027:
-  - Сдача HSK3 в Томске.
-  - Запуск консульской легализации документов для Тайваня через TECO Moscow.
-  - При необходимости — активация запасных слотов Китая (NJU до 20 января).
-* Февраль 2027:
-  - Дедлайн подачи документов в NTHU (25 февраля 2027).
-  - Подача на стипендию Taiwan MOE (с 1 февраля).
-  - Подача в KAIST (GKS University Track / Fall Regular).
-* Март 2027:
-  - Дедлайн стипендии Taiwan ICDF (15 марта 2027).
-  - Дедлайн Taiwan MOE (31 марта 2027).
-* Апрель — Июнь 2027:
-  - Прохождение академических интервью.
-  - Получение грантовых офферов.
-  - Защита диплома Archon в ТПУ, получение диплома и апостиль.
-* Сентябрь 2027:
-  - Вылет на обучение по программе магистратуры с полным грантом.
+Чек-лист документов, таймлайн и бюджет: **admission/README.md**, разделы 3, 5, 6. Легализация: admission/guides/docs_legalization_cn_tw.md.
